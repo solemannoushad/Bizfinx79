@@ -10,7 +10,7 @@ function SupportSection() {
             </div>
             <div className="support-content ml-8 w-1/2">
                 <h1 className='text-4xl font-medium'>AUTOMATION, PURPOSE-BUILT FOR ACCOUNTING FIRMS</h1>
-                <p className='text-lg mt-2'>Botkeeper leverages machine learning and workflow tools that automate the most manual and time-consuming bookkeeping work, simplifying your workload and giving you back your most precious resource: TIME.  </p>
+                <p className='text-lg mt-2'>Botkeeper leverages machine learning and workflow tools that automate the most manual and time-consuming bookkeeping work, simplifying your workload and giving you back your most precious resource: TIME.</p>
             </div>
         </div>
         <div className="support-card my-20 flex items-center flex-row-reverse">
@@ -19,8 +19,8 @@ function SupportSection() {
                 <img className='w-full z-20 relative' src="/thumbnail1.webp" alt="" />
             </div>
             <div className="support-content mr-8 w-1/2">
-                <h1 className='text-4xl font-medium'>AUTOMATION, PURPOSE-BUILT FOR ACCOUNTING FIRMS</h1>
-                <p className='text-lg mt-2'>Botkeeper leverages machine learning and workflow tools that automate the most manual and time-consuming bookkeeping work, simplifying your workload and giving you back your most precious resource: TIME.  </p>
+                <h1 className='text-4xl font-medium'>FANATICAL SUPPORT</h1>
+                <p className='text-lg mt-2'>Yep, that's what's included when you go with the Botkeeper solution. We've got your back every step of the way. Here's just some of what we make available based on your needs: standardized support options attuned to your package level, with flexible add-on support options available, white-glove onboarding and training, free, unlimited email and phone support, resource library, enablement kit, online knowledge base, and dedicated learning environment "Botkeeper University," and monthly group training on anything and everything to help your firm grow; the Botkeeper Platform, sales, marketing, pricing strategy, and more!</p>
             </div>
         </div>
     </section>
