@@ -1,6 +1,6 @@
 import React from 'react'
-import { speciality } from '@/content/speciality'
 import SpecialityCard from './SpecialityCard';
+import { speciality } from '@/content/speciality';
 
 function SpecialitiesSection() {
   return (

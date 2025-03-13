@@ -2,12 +2,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #002366;
+  --secondary: #fdd340;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -15,11 +17,37 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #171717;
+    --foreground: #002366;
+    --secondary: #fdd340;
   }
 }
 
+@font-face {
+  font-family: Lora;
+  src: url('/font/Lora-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('/font/Inter-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url('/font/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('/font/Roboto-VariableFont_wdth,wght.ttf');
+}
+
 body {
+  font-family: Roboto, Inter, Lora, serif;
   background: var(--background);
-  color: var(--foreground);
+  color: black;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: Lora, serif;
 }

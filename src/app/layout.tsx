@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import '../styles/globals.css'
 import '../styles/style.css'
-
-
-
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Bizfinx79",
@@ -18,7 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="overflow-x-hidden">
-        {children}
+        <header>
+          <Navbar />
+        </header>
+        <div className="">
+          {children}
+        </div>
       </body>
     </html>
   );
