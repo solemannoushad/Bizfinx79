@@ -7,7 +7,7 @@ interface ButtonProps {
 
 function Button({ title, onClick }: ButtonProps) {
   return (
-    <button className="primary-button text-lg text-center my-3 font-semibold py-3 px-6 tracking-wider cursor-pointer bg-[#008080] text-background" onClick={onClick}>
+    <button className="primary-button uppercase text-lg text-center my-3 font-semibold py-3 px-6 cursor-pointer bg-[#008080] text-background" onClick={onClick}>
       {title}
     </button>
   );
