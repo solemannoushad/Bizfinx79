@@ -7,6 +7,11 @@ export const menu = [
     {
         title: 'Services',
         path: '/',
+        dropdown: []
+    },
+    {
+        title: 'Industries',
+        path: '/industries',
         dropdown: [
             {
                 title: 'Healthcare',
@@ -46,11 +51,6 @@ export const menu = [
         ]
     },
     {
-        title: 'Industries',
-        path: '/',
-        dropdown: []
-    },
-    {
         title: 'Resources',
         path: '/',
         dropdown: [
@@ -68,7 +68,7 @@ export const menu = [
     },
     {
         title: 'About',
-        path: '/',
+        path: '/about',
         dropdown: []
     }
 ]

@@ -1,4 +1,5 @@
 import { menu } from '@/content/menu'
+import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
@@ -10,7 +11,7 @@ function Navbar() {
                 menu.map((item) => {
                     const {title, path, dropdown} = item
                     return(
-                        <li className='mx-3' key={title}><a className='text-base lg:text-lg' href={path}>{title}</a></li>
+                        <li className='mx-3' key={title}><Link className='text-base lg:text-lg' href={path}>{title}</Link></li>
                     )
                 })
             }
