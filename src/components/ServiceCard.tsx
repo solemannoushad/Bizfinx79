@@ -9,7 +9,7 @@ interface ServiceCardProps{
 
 function ServiceCard({ url, title, points }: ServiceCardProps) {
   return (
-    <div className='p-7 bg-[#eeeeee] rounded-lg flex flex-col justify-between'>
+    <div className='p-7 bg-[#eeeeee] rounded-lg flex flex-col justify-between cursor-pointer'>
       <h3 className='text-2xl font-semibold'>{title}</h3>
       <ul className='list-disc ml-7 my-6'>
         {
@@ -21,7 +21,7 @@ function ServiceCard({ url, title, points }: ServiceCardProps) {
         }
       </ul>
       <div className='inline-flex items-center cursor-pointer'>
-        <Link className='text-foreground font-medium text-lg' href={`/services/${url}`}>Learn More</Link>
+        <Link className='text-foreground font-semibold text-lg' href={`/services/${url}`}>Learn More</Link>
         <img src="/icons/angle-down-solid.svg" className='w-3 ml-2 rotate-270' alt="" />
       </div>
     </div>

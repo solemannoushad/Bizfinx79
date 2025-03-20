@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import { serviceContent } from '@/content/services'
 import React from 'react'
@@ -5,9 +6,8 @@ import React from 'react'
 function page() {
   return (
     <>
-      <div className="w-full h-screen bg-foreground text-white flex items-center justify-center">
-        <h1>Services</h1>
-      </div>
+      <Hero heading='services' subheading='Best Accounting and Tax Services Online for Startups and Small Busiensses' />
+
       <section className="section">
         <div className='grid grid-cols-2 gap-4 justify-center'>
           {
