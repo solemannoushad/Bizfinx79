@@ -5,12 +5,15 @@ import Button from './Button'
 function TrustBadge() {
   return (
     <section className="section trust-badge-section mt-10">
-        <div className="divider border-b-2 border-black w-16 mx-auto mt-10"></div>
-        <div className="trust-badge-container text-center flex flex-col items-center mt-16 mb-10">
-            <h1 className='font-semibold text-5xl uppercase'>100% Happiness Guarantee</h1>
-            <h3 className='font-medium text-2xl my-2'>Not happy? We'll do everything we can to make it right. </h3>
-            <p className='text-lg'>Spoiler alert. You won't be happy. You will be freakin thrilled you went with Botkeeper.</p>
-            <Button onClick={() => {}} title="let's do this" />
+        {/* <div className="divider border-b-2 border-black w-16 mx-auto mt-10"></div> */}
+        <div className="trust-badge-container w-full flex my-10 mx-auto px-10 py-14 rounded-4xl bg-secondary">
+            <div className="w-1/2 flex flex-col">
+              <h1 className='font-semibold text-5xl uppercase'>100% Financial Joy Guarantee</h1>
+              <p className='text-lg my-2'>With BizFinx, you're not just satisfied—you’ll be thrilled. If you're not over the moon, we'll work tirelessly to make it right.</p>
+              <div className='inline'>
+                <Button onClick={() => {}} title="let's do this" />
+              </div>
+            </div>
         </div>
     </section>
   )
