@@ -1,3 +1,4 @@
+import BlogsSection from "@/components/BlogsSection";
 import CoreSpecialitiesSection from "@/components/CoreSpecialitiesSection";
 import HomeHero from "@/components/HomeHero";
 import SpecialitiesSection from "@/components/SpecialitiesSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <VideoBgSection />
       {/* <SupportSection /> */}
       <CoreSpecialitiesSection />
+      <BlogsSection />
     </>
   );
 }
