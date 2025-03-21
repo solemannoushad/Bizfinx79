@@ -14,6 +14,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.section {
+  @apply  py-[2rem] px-[2rem] md:px-[4rem] max-w-7xl mx-auto;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
