@@ -20,6 +20,17 @@
     background-color: white;
 }
 
+.primary-heading::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: -10px;
+    height: 80%;
+    width: 5px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+}
+
 /* .primary-button {
     position: relative;
     transition: all 0.3s ease-in-out;
