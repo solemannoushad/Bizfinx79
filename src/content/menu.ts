@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const menu = [
     {
         title: 'Home',
@@ -7,7 +9,48 @@ export const menu = [
     {
         title: 'Services',
         path: '/services',
-        dropdown: []
+        dropdown: [
+            {
+                title: 'Accounting Services',
+                path: '/accounting-services',
+                dropdown: []
+            },
+            {
+                title: 'Taxation Services',
+                path: '/taxation-services',
+                dropdown: []
+            },
+            {
+                title: 'Financial Consulting',
+                path: '/financial-consulting',
+                dropdown: []
+            },
+            {
+                title: 'Business Advisory Services',
+                path: '/business-advisory-services',
+                dropdown: []
+            },
+            {
+                title: 'Compliance and Regulatory Services',
+                path: '/compliance-and-regulatory-services',
+                dropdown: []
+            },
+            {
+                title: 'Specialized Services',
+                path: '/specialized-services',
+                dropdown: []
+            },
+            {
+                title: 'Additional Services',
+                path: '/additional-services',
+                dropdown: []
+            },
+            {
+                title: 'Cost Management',
+                path: '/cost-management',
+                dropdown: []
+            }
+        ]
     },
     {
         title: 'Industries',
