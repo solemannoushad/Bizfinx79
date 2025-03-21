@@ -1,3 +1,4 @@
+import BlogsSection from '@/components/BlogsSection';
 import Hero from '@/components/Hero'
 import { industriesContent } from '@/content/industries'
 import React from 'react'
@@ -21,11 +22,11 @@ function page() {
                     industriesContent.map((item, index) => {
                         const {title, description, img} = item;
                         return(
-                            <div key={title} className={`flex items-center justify-between my-6 p-4 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
-                                <div className='w-1/2'>
+                            <div key={title} className={`flex items-center justify-between my-6 p-4 flex-col md:flex-row ${index % 2 === 0 ? '' : ' md:flex-row-reverse'}`}>
+                                <div className='w-full md:w-1/2'>
                                     <img src={img} alt="" />
                                 </div>
-                                <div className={`w-1/2 ${index % 2 === 0 ? 'ml-6' : 'mr-6'}`}>
+                                <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'ml-6' : 'mr-6'}`}>
                                     <h3 className='font-semibold text-4xl my-3'>{title}</h3>
                                     <p className='text-[#616161] text-lg'>{description}</p>
                                 </div>
@@ -35,6 +36,7 @@ function page() {
                 }
             </div>
         </section>
+        <BlogsSection />
     </>
   )
 }

@@ -1,3 +1,4 @@
+import BlogsSection from '@/components/BlogsSection';
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import { serviceContent } from '@/content/services'
@@ -9,7 +10,7 @@ function page() {
       <Hero heading='services' subheading='Best Accounting and Tax Services Online for Startups and Small Busiensses' />
 
       <section className="section">
-        <div className='grid grid-cols-2 gap-4 justify-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-center'>
           {
             serviceContent.cards.map((item) => {
               const { url, title, points } = item;
@@ -20,6 +21,7 @@ function page() {
           }
         </div>
       </section>
+      <BlogsSection />
     </>
   )
 }
