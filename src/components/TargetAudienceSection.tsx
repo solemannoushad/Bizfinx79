@@ -1,11 +1,12 @@
 import { targetAudienceContent } from '@/content/target-audience'
 import React from 'react'
 import TargetAudienceCard from './TargetAudienceCard';
+import Heading from './Heading';
 
 function TargetAudienceSection() {
   return (
     <section className="section my-10">
-        <h3 className='text-3xl text-black font-bold'>{targetAudienceContent.headline}</h3>
+        <Heading title={targetAudienceContent.headline} />
         <div className="target-audience-cards-main grid grid-cols-1 md:grid-cols-2 gap-6 py-10">
             {
                 targetAudienceContent.cards.map((item) => {
