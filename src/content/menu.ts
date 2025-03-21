@@ -6,7 +6,7 @@ export const menu = [
     },
     {
         title: 'Services',
-        path: '/',
+        path: '/services',
         dropdown: []
     },
     {

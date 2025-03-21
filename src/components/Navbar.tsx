@@ -11,7 +11,7 @@ function Navbar() {
                 menu.map((item) => {
                     const {title, path, dropdown} = item
                     return(
-                        <li className='mx-3' key={title}><Link className='text-base lg:text-lg' href={path}>{title}</Link></li>
+                        <li className='mx-3' key={title}><Link className='text-base lg:text-base' href={path}>{title}</Link></li>
                     )
                 })
             }

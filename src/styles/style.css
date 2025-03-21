@@ -9,3 +9,84 @@
 .overlay {
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.hero-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 2px;
+    background-color: white;
+}
+
+.primary-heading::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: -10px;
+    height: 80%;
+    width: 5px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+}
+
+/* .primary-button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 1;
+}
+
+.primary-button::before {
+    content: '';
+    width: 0;
+    height: 350%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #ffffff;
+    transition: .7s ease;
+    display: block;
+    z-index: -1;
+}
+
+.primary-button:hover::before {
+    width: 150%;
+}
+
+.primary-button:hover {
+    color: #000;
+} */
+
+
+/* .primary-button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    transition: all .3s ease;
+}
+
+.primary-button::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    transition: all .3s ease;
+}
+
+.primary-button:hover::after {
+    width: 100%;
+}
+.primary-button:hover::before {
+    width: 0%;
+} */

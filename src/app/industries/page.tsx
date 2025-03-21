@@ -1,11 +1,11 @@
-import IndustiresHero from '@/components/IndustiresHero'
+import Hero from '@/components/Hero'
 import { industriesContent } from '@/content/industries'
 import React from 'react'
 
 function page() {
   return (
     <>
-        <IndustiresHero />
+        <Hero heading='INDUSTRIES' subheading='BizFinx79 – Solutions That Elevate Industries & Drive Growth.' />
         <section className='section'>
             <div className='my-16 text-center'>
                 <h2 className='font-bold text-4xl mb-5'>Custom Solutions Designed for Your Industry</h2>

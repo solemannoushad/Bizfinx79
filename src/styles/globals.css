@@ -23,6 +23,11 @@
 }
 
 @font-face {
+  font-family: Poppins;
+  src: url('/font/Poppins-Regular.ttf');
+}
+
+@font-face {
   font-family: Lora;
   src: url('/font/Lora-VariableFont_wght.ttf');
 }
@@ -43,7 +48,7 @@
 }
 
 body {
-  font-family: Roboto, Inter, Lora, serif;
+  font-family: Poppins, Roboto, Inter, Lora, serif;
   background: var(--background);
   color: black;
 }
