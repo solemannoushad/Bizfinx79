@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import '../styles/globals.css'
 import '../styles/style.css'
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Bizfinx79",
@@ -21,6 +22,9 @@ export default function RootLayout({
         </header>
         <div className="">
           {children}
+        </div>
+        <div className="bg-foreground">
+          <Footer />
         </div>
       </body>
     </html>
