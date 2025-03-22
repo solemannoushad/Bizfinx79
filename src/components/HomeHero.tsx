@@ -4,7 +4,7 @@ import Button from './Button'
 
 function HomeHero() {
   return (
-    <section className='w-screen h-screen bg-foreground flex items-center'>
+    <section className='w-screen h-screen max-h-[700px] min-h-[480px] bg-foreground flex items-center'>
       <div className="max-w-7xl flex items-center px-10 mx-auto">
       <div className="hero-content w-full md:w-1/2 flex flex-col">
         <p className='text-white text-5xl font-semibold leading-14'>Navigate Your Finances with Confidence</p>
