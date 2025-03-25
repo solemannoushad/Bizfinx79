@@ -11,16 +11,16 @@ export const targetAudienceContent = {
         {
             title: "Established Enterprises:",
             description: "Organizations that require comprehensive financial management, regulatory compliance, and tax optimization to maintain stability and drive innovation.",
-            icon: "building-solid.svg",
-            bg: "#002366",
+            icon: "building.svg",
+            bg: "#0c1426",
             color: "#ffffff"
         },
         {
             title: "Specialized Sectors:",
             description: "Nonprofits, real estate firms, e-commerce businesses, and international companies needing industry-specific financial solutions.",
-            icon: "bezier-curve-solid.svg",
-            bg: "#fdd340",
-            color: "#000000"
+            icon: "colorkit.svg",
+            bg: "#17506d",
+            color: "#ffffff"
         },
         {
             title: "Individual Professionals:",

@@ -17,8 +17,8 @@ function CoreSpecialitiesCard({ icon, title, description }: CoreSpecialitiesCard
         >
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
-                    <div className={`img-bg-main w-12 h-12 rounded-full flex items-center justify-center ${show ? 'bg-secondary' : 'bg-[#f5f5f5]'} shadow-sm duration-300`}>
-                        <img className='w-8' src={`/icons/${icon}`} alt="" />
+                    <div className={`img-bg-main w-12 h-12 rounded-full flex items-center justify-center ${show ? 'bg-[#f5f5f5]' : 'bg-[#f5f5f5]'} shadow-sm duration-300`}>
+                        <img className='w-8 h-8 object-contain' src={`/icons/${icon}`} alt="" />
                     </div>
                     <p className="ml-4 text-xl font-medium">{title}</p>
                 </div>

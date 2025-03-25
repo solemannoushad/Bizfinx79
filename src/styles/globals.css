@@ -2,16 +2,16 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #003366;
+  --foreground: #0c1426;
   --secondary: #ff990a;
+  --primary: #17506d
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-secondary: var(--secondary);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
 }
 
 .section {
@@ -21,8 +21,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #003366;
+    --foreground: #0c1426;
     --secondary: #ff990a;
+    --primary: #17506d
   }
 }
 

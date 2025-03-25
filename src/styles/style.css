@@ -20,7 +20,8 @@
     background-color: white;
 }
 
-.primary-heading::before {
+.primary-heading::before,
+.footer-heading::before {
     content: '';
     position: absolute;
     top: 10%;

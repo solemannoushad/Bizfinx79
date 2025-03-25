@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-links">
-            <div className="footer-heading mb-6 text-xl font-semibold">
+            <div className="footer-heading relative mb-6 text-xl font-semibold">
               Quick Links
             </div>
             <ul className="space-y-4">
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-contact-info">
-            <div className="footer-heading mb-6 text-xl font-semibold">
+            <div className="footer-heading relative mb-6 text-xl font-semibold">
               Get In Touch
             </div>
             <div className="space-y-4">
@@ -131,7 +131,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-newsletter">
-            <div className="footer-heading mb-6 text-xl font-semibold">
+            <div className="footer-heading relative mb-6 text-xl font-semibold">
               Newsletter
             </div>
             <div className="footer-form w-full">
