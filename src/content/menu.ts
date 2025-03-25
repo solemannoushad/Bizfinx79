@@ -95,7 +95,7 @@ export const menu = [
     },
     {
         title: 'Resources',
-        path: '/',
+        path: '/resources',
         dropdown: [
             {
                 title: 'Blog',
