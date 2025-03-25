@@ -1,10 +1,13 @@
+"use client"
 import { blogsData } from "@/content/blogs";
 import React from "react";
 import BlogCard from "./BlogCard";
 import Heading from "./Heading";
 import Button from "./Button";
+import { useNavigate } from "@/utils/navigation";
 
 function BlogsSection() {
+  const navigate = useNavigate();
   return (
     <section className="section">
       <Heading title="Blogs" />
@@ -15,7 +18,11 @@ function BlogsSection() {
         })}
       </div>
       <div className="flex justify-center">
-        <Button title="See All" />
+        <Button title="See All" onClick={
+          () => {
+            navigate("/resources/blogs");
+          }
+        } />
       </div>
     </section>
   );
