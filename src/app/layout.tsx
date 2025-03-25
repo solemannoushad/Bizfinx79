@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="text-[12px] md:text-[16px]">
+    <html lang="en" className="text-[13px] md:text-[16px]">
       <head>
       <link
           rel="stylesheet"

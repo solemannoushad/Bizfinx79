@@ -2,6 +2,7 @@ import { blogsData } from "@/content/blogs";
 import React from "react";
 import BlogCard from "./BlogCard";
 import Heading from "./Heading";
+import Button from "./Button";
 
 function BlogsSection() {
   return (
@@ -12,6 +13,9 @@ function BlogsSection() {
             const { title, description, image, url } = item;
             return <BlogCard key={index} title={title} description={description} image={image} url={url} />;
         })}
+      </div>
+      <div className="flex justify-center">
+        <Button title="See All" />
       </div>
     </section>
   );

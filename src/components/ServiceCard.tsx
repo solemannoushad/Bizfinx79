@@ -20,9 +20,9 @@ function ServiceCard({ url, title, points }: ServiceCardProps) {
             })
         }
       </ul>
-      <div className='inline-flex items-center cursor-pointer'>
+      <div className='inline-flex items-center cursor-pointer group'>
         <Link className='text-foreground font-semibold text-lg' href={`/services/${url}`}>Learn More</Link>
-        <img src="/icons/angle-down-solid.svg" className='w-3 ml-2 rotate-270' alt="" />
+        <img src="/icons/angle-down-solid.svg" className='w-3 ml-2 rotate-270 group-hover:rotate-230 duration-300' alt="" />
       </div>
     </div>
   )

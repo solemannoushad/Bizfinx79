@@ -23,13 +23,13 @@ function StatsBox() {
   ];
 
   return (
-    <div className="flex flex-wrap bg-secondary text-foreground my-10 py-10 px-16 items-start justify-between">
+    <div className="flex flex-wrap bg-foreground text-white my-10 py-10 px-16 items-start justify-between shadow-md shadow-foreground">
       {stats.map((stat) => (
         <div
           key={stat.title}
           className="flex flex-col items-center cursor-pointer group"
         >
-          <h1 className="text-4xl font-medium group-hover:text-foreground transition-all duration-300">
+          <h1 className="text-4xl font-medium group-hover:text-secondary transition-all duration-300">
             {stat.stats}
           </h1>
           <p className="text-lg font-light">{stat.title}</p>
