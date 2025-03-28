@@ -2,6 +2,7 @@
 import { menu } from '@/content/menu'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import Button from './Button';
 
 // bg-foreground/90 shadow-lg backdrop-blur-lg backdrop-opacity-50 h-[300px]
 
@@ -55,6 +56,7 @@ function Navbar() {
                     </div>
                 </div>
             </ul>
+            <Button title='Contact' />
         </div>
     </nav>
   )
