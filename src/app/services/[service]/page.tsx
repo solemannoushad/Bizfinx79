@@ -12,7 +12,7 @@ function page() {
     <div>
       <ServiceHero heading={subServicesdata[0].heroHeading} subheading={subServicesdata[0].heroSubHeading} />
       <ServiceTemplateHighlight description={subServicesdata[0].subcardSub} heading={subServicesdata[0].subcardHeading}/>
-      <CfoGuide heading={subServicesdata[0].CardTextHeading}  description={subServicesdata[0].cardTextSub} />
+      <CfoGuide heading={subServicesdata[0].CardTextHeading}  description={subServicesdata[0].cardTextSub} servicesListData={subServicesdata[0].specialServicesList} />
       <CFOServicesSection
         heading="Why Opt for Outsourced CFO Services?"
         description="The value of CFO advisory services is undeniable. A fractional CFO is pivotal for business longevity, from strategizing growth to organizing finances. Outsourcing these services offers added advantages"
