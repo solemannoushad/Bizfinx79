@@ -1,4 +1,3 @@
-import { title } from "process";
 
 export const menu = [
     {
@@ -12,42 +11,42 @@ export const menu = [
         dropdown: [
             {
                 title: 'Accounting Services',
-                path: '/accounting-services',
+                path: '/services/accounting-services',
                 dropdown: []
             },
             {
                 title: 'Taxation Services',
-                path: '/taxation-services',
+                path: '/services/taxation-services',
                 dropdown: []
             },
             {
                 title: 'Financial Consulting',
-                path: '/financial-consulting',
+                path: '/services/financial-consulting',
                 dropdown: []
             },
             {
                 title: 'Business Advisory Services',
-                path: '/business-advisory-services',
+                path: '/services/business-advisory-services',
                 dropdown: []
             },
             {
                 title: 'Compliance and Regulatory Services',
-                path: '/compliance-and-regulatory-services',
+                path: '/services/compliance-and-regulatory-services',
                 dropdown: []
             },
             {
                 title: 'Specialized Services',
-                path: '/specialized-services',
+                path: '/services/specialized-services',
                 dropdown: []
             },
             {
                 title: 'Additional Services',
-                path: '/additional-services',
+                path: '/services/additional-services',
                 dropdown: []
             },
             {
                 title: 'Cost Management',
-                path: '/cost-management',
+                path: '/services/cost-management',
                 dropdown: []
             }
         ]
@@ -99,12 +98,12 @@ export const menu = [
         dropdown: [
             {
                 title: 'Blog',
-                path: '/',
+                path: '/resources/blogs',
                 dropdown: []
             },
             {
                 title: 'Testinomials',
-                path: '/',
+                path: '/resources/testinomials',
                 dropdown: []
             }
         ]
