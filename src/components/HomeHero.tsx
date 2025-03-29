@@ -18,10 +18,10 @@ function HomeHero() {
           </div>
         </div>
         <div className="hero-img hidden md:block md:w-1/2 px-10">
-          <div className="img w-full h-[32rem] bg-white rounded-2xl overflow-hidden shadow-sm shadow-white">
+          <div className="img w-full h-[32rem] bg-transparent rounded-2xl overflow-hidden shadow-sm">
             <img
               className="w-full h-full object-cover"
-              src="/images/hero-img1.webp"
+              src="/images/Money income-rafiki.png"
               alt="BizFinX79"
             />
           </div>

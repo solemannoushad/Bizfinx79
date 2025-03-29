@@ -15,7 +15,7 @@ function TrustBadge() {
               </div>
             </div>
             <div className="w-1/2 flex items-center px-10">
-              <img src="/images/s2.jpg" alt="" className='shadow-md shadow-slate-400' />
+              <img src="/images/trust.png" alt="" className='w-full h-full object-cover' />
             </div>
         </div>
     </section>

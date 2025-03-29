@@ -45,8 +45,8 @@ function Navbar() {
                         )
                     })
                 }
-                <div className={`dropdown-mega absolute top-14 left-0 ${show && dropdown.length > 0 ? 'block' : 'hidden'}`}>
-                    <div className='grid grid-cols-2 gap-x-10 gap-y-3'>
+                <div className={`dropdown-mega w-[150%] absolute top-14 left-0 ${show && dropdown.length > 0 ? 'block' : 'hidden'}`}>
+                    <div className='grid grid-cols-2 gap-x-1 gap-y-3'>
                             {dropdown.map((item) => {
                                 const {title, path, dropdown} = item
                                 return(
