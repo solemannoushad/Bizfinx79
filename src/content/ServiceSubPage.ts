@@ -114,6 +114,7 @@ export const subServicesdata = [
     firstCardTitle: "Stay Ahead with Proactive Financial Management",
     firstCardTxt:
       "Achieve financial clarity and control with expert accounting services that empower businesses to maintain transparency, optimize resources, and drive growth with precision.",
+      firstCardImage: "trust.png",
     secondCardTitle: "How BizFinx79 Simplifies Accounting for You",
     secondCardTxt:
       "Accounting can be complex and time-consuming—BizFinx79 simplifies the process by combining compliance expertise, strategic insights, and proven software solutions to minimize errors and improve financial efficiency.",
@@ -221,6 +222,7 @@ export const subServicesdata = [
             title: "Transparent Reporting & Insights",
             txt: "Providing clear, actionable data to guide strategic decisions."
         },
-    ]
+    ],
+    chooseUsImage: "trust.png"
   },
 ];

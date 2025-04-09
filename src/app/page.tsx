@@ -13,7 +13,7 @@ export default function Home() {
       <HomeHero />
       <TargetAudienceSection />
       {/* <SpecialitiesSection /> */}
-      <TrustBadge />
+      <TrustBadge title="100% Financial Joy Guarantee" txt="With BizFinx, you're not just satisfied—you’ll be thrilled. If you're not over the moon, we'll work tirelessly to make it right." image="trust.png" />
       <VideoBgSection />
       {/* <SupportSection /> */}
       <CoreSpecialitiesSection />
