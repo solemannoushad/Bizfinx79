@@ -5,6 +5,7 @@ import { subServicesdata } from '@/content/ServiceSubPage';
 import TrustBadge from '@/components/TrustBadge';
 import SubServiceSpecialities from '@/components/SubServiceSpecialities';
 import WhyChooseUs from '@/components/WhyChooseUs';
+import BlogsSection from '@/components/BlogsSection';
 
 interface Props {
   params: { service: string }
@@ -42,6 +43,7 @@ function Page({ params }: Props) {
       </section>
       <SubServiceSpecialities coreSpecialities={coreSpecialities} />
       <WhyChooseUs chooseHeading={chooseHeading} choosePoints={choosePoints} chooseUsImage={chooseUsImage} />
+      <BlogsSection />
     </div>
   );
 }
