@@ -25,9 +25,7 @@ export default function RootLayout({
       </head>
       <body className="overflow-x-hidden">
         <BackToTop />
-        <header>
-          <Navbar />
-        </header>
+        <Navbar />
         <div className="">
           {children}
         </div>

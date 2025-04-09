@@ -32,6 +32,10 @@
     background-color: var(--secondary);
 }
 
+.fade{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
 /* .primary-button {
     position: relative;
     transition: all 0.3s ease-in-out;

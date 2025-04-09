@@ -55,41 +55,41 @@ export const menu = [
         title: 'Industries',
         path: '/industries',
         dropdown: [
-            {
-                title: 'Healthcare',
-                path: '/',
-                dropdown: []
-            },
-            {
-                title: 'Retail and Consumer Packaged Goods',
-                path: '/',
-                dropdown: []
-            },
-            {
-                title: 'Financial Services',
-                path: '/',
-                dropdown: []    
-            },
-            {
-                title: 'Private Equity',
-                path: '/',
-                dropdown: []    
-            },
-            {
-                title: 'Manufacturing & Logistics',
-                path: '/',
-                dropdown: []    
-            },
-            {
-                title: 'Restaurants',
-                path: '/',
-                dropdown: []    
-            },
-            {
-                title: 'Technology ',
-                path: '/',
-                dropdown: []    
-            },
+            // {
+            //     title: 'Healthcare',
+            //     path: '/',
+            //     dropdown: []
+            // },
+            // {
+            //     title: 'Retail and Consumer Packaged Goods',
+            //     path: '/',
+            //     dropdown: []
+            // },
+            // {
+            //     title: 'Financial Services',
+            //     path: '/',
+            //     dropdown: []    
+            // },
+            // {
+            //     title: 'Private Equity',
+            //     path: '/',
+            //     dropdown: []    
+            // },
+            // {
+            //     title: 'Manufacturing & Logistics',
+            //     path: '/',
+            //     dropdown: []    
+            // },
+            // {
+            //     title: 'Restaurants',
+            //     path: '/',
+            //     dropdown: []    
+            // },
+            // {
+            //     title: 'Technology ',
+            //     path: '/',
+            //     dropdown: []    
+            // },
         ]
     },
     {

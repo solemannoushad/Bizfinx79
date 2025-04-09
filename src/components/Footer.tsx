@@ -52,14 +52,6 @@ export default function Footer() {
                   className="text-sm font-normal hover:text-secondary transition-colors"
                   href="#"
                 >
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm font-normal hover:text-secondary transition-colors"
-                  href="#"
-                >
                   Our Services
                 </a>
               </li>

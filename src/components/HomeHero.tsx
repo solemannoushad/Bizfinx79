@@ -14,7 +14,7 @@ function HomeHero() {
             Expert Accounting, Tax, and CFO Solutions
           </p>
           <div className="inline">
-            <Button title="Call To Action" onClick={() => {}} />
+            <Button title="Explore Our Services" onClick={() => {}} />
           </div>
         </div>
         <div className="hero-img hidden md:block md:w-1/2 px-10">
