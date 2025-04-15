@@ -1,5 +1,6 @@
 import BlogsSection from '@/components/BlogsSection'
 import Hero from '@/components/Hero'
+import TestinomialSection from '@/components/TestinomialSection'
 import React from 'react'
 
 function page() {
@@ -7,6 +8,7 @@ function page() {
     <>
         <Hero heading="Resources" subheading='Explore expert insights, success stories, and financial strategies to empower your journey.' />
         <BlogsSection />
+        <TestinomialSection />
     </>
   )
 }

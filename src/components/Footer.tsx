@@ -15,7 +15,7 @@ export default function Footer() {
     setForm(""); // Clears input field after submission
   };
 
-  const currentYear = "2024";
+  const currentYear = new Date().getFullYear();
 
   return (
     <>
