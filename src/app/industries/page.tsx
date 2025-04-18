@@ -24,7 +24,7 @@ function page() {
                         return(
                             <div key={title} className={`flex items-center justify-between my-6 p-4 flex-col md:flex-row ${index % 2 === 0 ? '' : ' md:flex-row-reverse'}`}>
                                 <div className='w-full md:w-1/2'>
-                                    <img src={img} alt="" />
+                                    <img className='w-full' src={`/images/${img}`} alt={title} />
                                 </div>
                                 <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'ml-6' : 'mr-6'}`}>
                                     <h3 className='font-semibold text-4xl my-3'>{title}</h3>

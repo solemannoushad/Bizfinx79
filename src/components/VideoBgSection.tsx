@@ -4,7 +4,7 @@ function VideoBgSection() {
   return (
     <section className='w-screen h-[37rem] relative flex items-center justify-end text-white'>
         <video className="w-full h-full object-cover absolute top-0 left-0 z-10" autoPlay muted loop>
-            <source src="/video.mp4" type="video/mp4" />
+            <source src="/global-impact.mp4" type="video/mp4" />
         </video>
         <div className="overlay w-full h-full absolute top-0 left-0 z-20"></div>
         <div className="video-top-content z-30 w-[80%] text-right mr-10">

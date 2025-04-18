@@ -1,9 +1,13 @@
+"use client"
 import { blogsData } from "@/content/blogs";
 import React from "react";
 import BlogCard from "./BlogCard";
 import Heading from "./Heading";
+import Button from "./Button";
+import { useNavigate } from "@/utils/navigation";
 
 function BlogsSection() {
+  const navigate = useNavigate();
   return (
     <section className="section">
       <Heading title="Blogs" />
@@ -12,6 +16,13 @@ function BlogsSection() {
             const { title, description, image, url } = item;
             return <BlogCard key={index} title={title} description={description} image={image} url={url} />;
         })}
+      </div>
+      <div className="flex justify-center">
+        <Button title="Explore More" onClick={
+          () => {
+            navigate("/resources/blogs");
+          }
+        } />
       </div>
     </section>
   );

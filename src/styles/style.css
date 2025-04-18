@@ -2,9 +2,9 @@
     padding: 2rem 4rem;
 } */
 
-.trust-badge-section {
+/* .trust-badge-section {
     box-shadow: 0 -10px 20px -5px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.6);
@@ -20,16 +20,21 @@
     background-color: white;
 }
 
-.primary-heading::before {
+.primary-heading::before,
+.footer-heading::before {
     content: '';
     position: absolute;
     top: 10%;
-    left: -10px;
+    left: -15px;
     height: 80%;
     width: 5px;
     border-radius: 10px;
     background-color: var(--secondary);
 }
+
+.fade{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 
 /* .primary-button {
     position: relative;
