@@ -19,11 +19,9 @@ function HomeHero() {
         </div>
         <div className="hero-img hidden md:block md:w-1/2 px-10">
           <div className="img w-full h-[32rem] bg-transparent rounded-2xl overflow-hidden shadow-sm">
-            <img
-              className="w-full h-full object-cover"
-              src="/images/Money income-rafiki.png"
-              alt="BizFinX79"
-            />
+            <video className="w-full h-full object-cover" autoPlay muted loop>
+            <source src="/bg.mp4" type="video/mp4" />
+          </video>
           </div>
         </div>
       </div>

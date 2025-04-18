@@ -77,7 +77,7 @@ export default function Footer() {
                   href="tel:+12678000191"
                   className="text-sm font-normal hover:text-secondary transition-colors"
                 >
-                  +123-456-7890
+                  00966-538320746
                 </a>
               </div>
               <div className="flex items-center gap-3">
