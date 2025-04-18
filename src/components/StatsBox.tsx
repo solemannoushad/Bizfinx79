@@ -6,7 +6,7 @@ function StatsBox() {
   const stats = [
     {
       title: "Projects Delivered",
-      stats: "100+",
+      stats: "500+",
     },
     {
       title: "Client Satisfaction",
@@ -14,11 +14,11 @@ function StatsBox() {
     },
     {
       title: "High Positive Reviews",
-      stats: "340+",
+      stats: "400+",
     },
     {
       title: "Years of Expertise",
-      stats: "10+",
+      stats: "15+",
     },
   ];
 

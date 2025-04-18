@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Button from "./Button";
+import Link from "next/link";
 
 export default function Footer() {
   const [form, setForm] = useState("");
@@ -40,28 +41,28 @@ export default function Footer() {
             </div>
             <ul className="space-y-4">
               <li>
-                <a
+                <Link
                   className="text-sm font-normal hover:text-secondary transition-colors"
-                  href="#"
+                  href="/privacy-policy"
                 >
-                  Terms and Conditions
-                </a>
+                  Privacy Policy
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-sm font-normal hover:text-secondary transition-colors"
-                  href="#"
+                  href="/services"
                 >
                   Our Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-sm font-normal hover:text-secondary transition-colors"
-                  href="#"
+                  href="/industries"
                 >
                   Our Industries
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

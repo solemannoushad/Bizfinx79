@@ -18,7 +18,7 @@ function BlogsSection() {
         })}
       </div>
       <div className="flex justify-center">
-        <Button title="See All" onClick={
+        <Button title="Explore More" onClick={
           () => {
             navigate("/resources/blogs");
           }
