@@ -5,11 +5,12 @@ interface TestimonialCardProps {
   comment: string;
   title?: string; // Optional: if you want to show job title or role
   avatarUrl?: string; // Optional: for profile image
+  fullHeight?: boolean;
 }
 
-function TestimonialCard({ name, comment, title, avatarUrl }: TestimonialCardProps) {
+function TestimonialCard({ name, comment, title, avatarUrl, fullHeight = false }: TestimonialCardProps) {
     return (
-      <div className="w-full bg-foreground shadow-md hover:shadow-xl transition-all duration-300 rounded-xl p-6 borderborder-neutral-700 break-inside-avoid">
+      <div className={`w-full bg-foreground shadow-md hover:shadow-xl transition-all duration-300 rounded-xl p-6 borderborder-neutral-700 break-inside-avoid ${fullHeight && "h-full"}`}>
         <i className="iconoir-quote-solid text-secondary text-4xl"></i>
         <p className="text-white text-base leading-relaxed mb-4">
           {comment}

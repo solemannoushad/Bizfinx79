@@ -2,6 +2,7 @@ import BlogsSection from '@/components/BlogsSection'
 import Heading from '@/components/Heading'
 import Hero from '@/components/Hero'
 import StatsBox from '@/components/StatsBox'
+import TestinomialSlider from '@/components/TestinomialSlider'
 import React from 'react'
 
 function page() {
@@ -41,6 +42,10 @@ function page() {
             <Heading title='Why Choose Us' />
             <StatsBox />
         </div>
+        <section className="section">
+            <Heading title="Testimonials" />
+        <TestinomialSlider />
+        </section>
         <BlogsSection />
     </>
   )

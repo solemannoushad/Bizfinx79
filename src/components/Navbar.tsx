@@ -4,8 +4,6 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import Button from './Button';
 
-// bg-foreground/90 shadow-lg backdrop-blur-lg backdrop-opacity-50 h-[300px]
-
 interface MenuItem {
     title: string;
     path: string;
