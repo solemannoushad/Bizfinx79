@@ -19,7 +19,7 @@ function BlogCard({ title, description, image, url }: BlogCardProps) {
 
   return (
     <div className='bg-[#f9f9f9] shadow-sm flex flex-col rounded-md overflow-hidden'>
-      <img src={image} alt={title} className='w-full h-64 object-cover' />
+      <img src={`/images/blogs/${image}`} alt={title} className='w-full h-64 object-cover' />
       <div className="blog-content my-6 px-6">
         <Link href={`/resources/blogs/${url}`} className='font-semibold text-base hover:text-secondary duration-300'>
           {truncatedTitle}

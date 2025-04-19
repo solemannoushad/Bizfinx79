@@ -19,7 +19,7 @@ function page({ params }: Props) {
     <>
       <Hero heading='blog' subheading={blogData.title} />
       <section className="max-w-4xl mx-auto py-20 px-10">
-        <img src={blogData.image} alt={blogData.title} className='mb-16' />
+        <img src={`/images/blogs/${blogData.image}`} alt={blogData.title} className='mb-16' />
         {
           blogData.content
         }

@@ -4,7 +4,7 @@ import Heading from "@/components/Heading"
 export const blogsData = [
     {
         url: 'advance-in-your-finance-and-accounting-careers-with-top-technical-skills',
-        image: 'https://www.auxis.com/wp-content/uploads/2024/03/image-51-1-1-1024x683.png',
+        image: 'blog-1.jpg',
         title: 'Advance in your finance and accounting careers with top technical skills',
         description: 'Profession in finance and accounting is one of the top career choices for finance and accounting professionals. Employment of accountants and auditors is projected to grow 7 percent from the year 2020 to the year 2030, about as fast as the average for all occupations. About 135,000 openings for accountants and auditors are projected each year, on average, over the decade. To grow in this field one requires certain skills both in the technical space as well as in the non-technical space.',
         content: (
@@ -75,7 +75,7 @@ export const blogsData = [
     },
     {
         url: 'the-biggest-technology-trends-in-accounting-and-finance',
-        image: 'https://www.auxis.com/wp-content/uploads/2024/03/image-51-1-1-1024x683.png',
+        image: 'blog-2.jpg',
         title: 'The Biggest Technology Trends In Accounting And Finance',
         description: 'The role of technology in every industry, line of business, or career is tremendous. It plays an essential role in the growth and efficiency of a firm. Technology has redefined almost all business functions from end to end.Investment management accounting and finance are no different. Technology has powered data explosion in recent times. Professionals in the finance domain should be aware of the investment & management accounting trends. Awareness of the latest technology trends will help finance professionals with business strategies. Knowledge will help derive more value from technology solutions.',
         content: (
@@ -115,7 +115,7 @@ export const blogsData = [
     },
     {
         url: 'finance-vs-accounting-whats-the-difference-and-why-it-matters',
-        image: 'https://www.auxis.com/wp-content/uploads/2024/03/image-51-1-1-1024x683.png',
+        image: 'blog-3.jpg',
         title: "Finance vs. Accounting: What's the Difference and Why It Matters",
         description: "Confused by finance and accounting? Don't worry, you're not alone. Many people mix up these terms, which can lead to mistakes. Knowing the differences is key for smart decisions, whether for your money or your job.This article explains the main differences between finance and accounting. You'll learn what each one does, why they matter, and what skills they need. Get ready to understand money better and feel confident about your financial future.",
         content: (
@@ -234,7 +234,7 @@ export const blogsData = [
     },
     {
         url: 'how-ai-community-sustainability-are-reshaping-accounting-finance-2025',
-        image: 'https://www.auxis.com/wp-content/uploads/2024/03/image-51-1-1-1024x683.png',
+        image: 'blog-4.jpg',
         title: 'How AI, Community, and Sustainability are Reshaping Accounting and Finance in 2025',
         description: "Imagine an accounting expert, drowning in data. New tech changes everything fast. Can they keep up? The accounting and finance fields are changing quickly. AI and constant learning are now key. IMA is helping pros with AI, communities, and going green in 2025.",
         content: (
@@ -374,7 +374,7 @@ export const blogsData = [
     },
     {
         url: 'fintech-revolution-understanding-the-disruption-and-avoiding-the-hype',
-        image: 'https://www.auxis.com/wp-content/uploads/2024/03/image-51-1-1-1024x683.png',
+        image: 'blog-5.jpg',
         title: 'FinTech Revolution: Understanding the Disruption and Avoiding the Hype',
         description: "Are you ready to dive into the rapidly evolving world of FinTech? From mobile banking to robo-advisors, financial technology is reshaping how we manage our money and interact with financial services. But with every revolution comes a wave of hype and potential pitfalls. In this article, we'll dissect the FinTech phenomenon. We'll explore its disruptive impact and the key players involved. We'll also look at the crucial need for a balanced perspective. Whether you're a finance pro or just curious, this guide will equip you with the knowledge to navigate the FinTech landscape with confidence.",
         content: (
