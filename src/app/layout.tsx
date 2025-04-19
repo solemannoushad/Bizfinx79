@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import '../styles/globals.css'
-import '../styles/style.css'
+import "../styles/globals.css";
+import "../styles/style.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "Bizfinx79",
@@ -16,19 +17,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="text-[13px] md:text-[16px]">
+    <html lang="en" className="text-[13px] md:text-[16px] overflow-x-hidden">
       <head>
-      <link
+        <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"
         />
       </head>
       <body className="overflow-x-hidden">
         <BackToTop />
-        <Navbar />
-        <div className="">
-          {children}
+        <div className="hidden md:block">
+          <Navbar />
         </div>
+
+        <div className="md:hidden">
+          <MobileNav />
+        </div>
+        <div className="">{children}</div>
         <div className="bg-foreground">
           <Footer />
         </div>
