@@ -18,7 +18,7 @@ function BlogCard({ title, description, image, url }: BlogCardProps) {
     : title;
 
   return (
-    <div className='bg-[#f9f9f9] shadow-sm flex flex-col rounded-md overflow-hidden'>
+    <div className='bg-[#f9f9f9] max-w-[360px] mx-auto shadow-sm flex flex-col rounded-md overflow-hidden'>
       <img src={`/images/blogs/${image}`} alt={title} className='w-full h-64 object-cover' />
       <div className="blog-content my-6 px-6">
         <Link href={`/resources/blogs/${url}`} className='font-semibold text-base hover:text-secondary duration-300'>

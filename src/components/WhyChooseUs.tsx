@@ -10,8 +10,8 @@ interface WhyChooseUsProps {
 function WhyChooseUs({chooseHeading ,choosePoints, chooseUsImage}: WhyChooseUsProps) {
   return (
     <section className='section'>
-      <div className='flex items-center justify-between flex-row-reverse'>
-        <div className='w-1/2'>
+      <div className='flex items-center justify-between flex-col-reverse md:flex-row-reverse'>
+        <div className='w-full md:w-1/2'>
           {/* <h1 className='text-4xl text-black font-bold'>{chooseHeading}</h1> */}
           <Heading title={chooseHeading} />
           <ul className='py-4'>
@@ -28,7 +28,7 @@ function WhyChooseUs({chooseHeading ,choosePoints, chooseUsImage}: WhyChooseUsPr
             }
           </ul>
         </div>
-        <div className='w-1/2'>
+        <div className='w-full md:w-1/2'>
           <img src={`/images/${chooseUsImage}`} alt="" className='w-full h-full object-cover' />
         </div>  
       </div>

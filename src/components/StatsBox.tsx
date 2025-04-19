@@ -27,9 +27,9 @@ function StatsBox() {
       {stats.map((stat) => (
         <div
           key={stat.title}
-          className="flex flex-col items-center cursor-pointer group"
+          className="flex flex-col items-center cursor-pointer text-center group"
         >
-          <h1 className="text-4xl font-medium group-hover:text-secondary transition-all duration-300">
+          <h1 className="text-4xl font-medium group-hover:text-secondary text-center transition-all duration-300">
             {stat.stats}
           </h1>
           <p className="text-lg font-light">{stat.title}</p>

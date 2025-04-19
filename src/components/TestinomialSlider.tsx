@@ -61,7 +61,7 @@ function TestinomialSlider() {
       >
         {testimonialsData.map((t) => {
           return (
-            <>
+            <div key={t.name}>
               {t.comment.length <= 250 && (
                 <SwiperSlide key={t.name}>
                   <TestimonialCard
@@ -71,7 +71,7 @@ function TestinomialSlider() {
                   />
                 </SwiperSlide>
               )}
-            </>
+            </div>
           );
         })}
       </Swiper>

@@ -1,8 +1,12 @@
 "use client";
 import React from "react";
 import Button from "./Button";
+import { useNavigate } from "@/utils/navigation";
 
 function HomeHero() {
+
+  const navigate = useNavigate();
+
   return (
     <section className="w-screen h-screen max-h-[800px] min-h-[700px] bg-foreground flex items-center">
       <div className="max-w-7xl flex items-center px-10 mx-auto mt-10">
@@ -14,7 +18,7 @@ function HomeHero() {
             Expert Accounting, Tax, and CFO Solutions
           </p>
           <div className="inline">
-            <Button title="Explore Our Services" onClick={() => {}} />
+            <Button title="Explore Our Services" onClick={() => {navigate("/services")}} />
           </div>
         </div>
         <div className="hero-img hidden md:block md:w-1/2 px-10">
