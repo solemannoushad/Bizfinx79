@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import Button from './Button'
 import { usePathname } from 'next/navigation' // ✅ Using usePathname for client-side routing info
+import { useNavigate } from '@/utils/navigation'
 
 interface MenuItem {
   title: string
@@ -13,6 +14,9 @@ interface MenuItem {
 }
 
 function Navbar() {
+
+  const navigate = useNavigate();
+
   const [show, setShow] = useState(false)
   const [dropdown, setDropdown] = useState<MenuItem[]>([])
 
@@ -78,7 +82,7 @@ function Navbar() {
               </div>
             </div>
           </ul>
-          <Button title='Contact' />
+          <Button title='Contact' onClick={() => { navigate("/contact") }} />
         </div>
       </nav>
     </header>
