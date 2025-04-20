@@ -36,6 +36,33 @@
     background-color: rgba(0, 0, 0, 0.7);
   }
 
+
+  .marquee-wrapper {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee-track {
+    display: inline-flex;
+    animation: scroll-marquee 70s linear infinite;
+  }
+  
+  @keyframes scroll-marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+  
+  .marquee-wrapper:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
 /* .primary-button {
     position: relative;
     transition: all 0.3s ease-in-out;

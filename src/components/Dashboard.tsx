@@ -17,9 +17,9 @@ function Dashboard() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             {
                                 images.map((image, index) => (
-                                    <div key={index} className="w-full bg-transparent rounded-2xl overflow-hidden shadow-sm">
+                                    <div key={index} className="w-full rounded-2xl overflow-hidden shadow-sm">
                                         <img
-                                            className="w-full h-full object-contain"
+                                            className="w-full h-full object-fill"
                                             src={`/images/dashboard/${image}`}
                                             alt="BizFinX79"
                                         />

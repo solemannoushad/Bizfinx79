@@ -7,10 +7,11 @@ interface TrustBadgeProps {
   title: string;
   txt: string;
   image: string;
-  navigateTo?: string
+  navigateTo?: string;
+  home?: boolean;
 }
 
-function TrustBadge({title, txt, image, navigateTo}: TrustBadgeProps) {
+function TrustBadge({title, txt, image, navigateTo, home=false}: TrustBadgeProps) {
 
   const navigate = useNavigate();
 
@@ -24,7 +25,7 @@ function TrustBadge({title, txt, image, navigateTo}: TrustBadgeProps) {
                 <Button onClick={() => {navigate(navigateTo)}} title="let's do this" />
               </div>}
             </div>
-            <div className="w-full md:w-1/2 flex items-center px-10">
+            <div className="w-full md:w-1/2 flex items-center px-10 relative">
               <img src={`/images/${image}`} alt="" className='w-full h-full object-cover' />
             </div>
         </div>

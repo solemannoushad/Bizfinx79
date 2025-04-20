@@ -49,6 +49,7 @@ const Page = async ({ params }) => {
       </section>
       <SubServiceSpecialities coreSpecialities={coreSpecialities} />
       <WhyChooseUs chooseHeading={chooseHeading} choosePoints={choosePoints} chooseUsImage={chooseUsImage} />
+      
       <BlogsSection />
     </div>
   );
