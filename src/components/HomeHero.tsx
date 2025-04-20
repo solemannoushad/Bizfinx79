@@ -14,7 +14,7 @@ function HomeHero() {
           <p className="text-white text-5xl font-semibold leading-14">
             Navigate Your Finances with Confidence
           </p>
-          <p className="text-secondary text-4xl font-semibold my-4">
+          <p className="text-secondary text-4xl font-semibold my-8">
             Expert Accounting, Tax, and CFO Solutions
           </p>
           <div className="inline">

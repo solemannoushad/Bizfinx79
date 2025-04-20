@@ -26,7 +26,7 @@ function TrustBadge({title, txt, image, navigateTo, home=false}: TrustBadgeProps
               </div>}
             </div>
             <div className="w-full md:w-1/2 flex items-center px-10 relative">
-              <img src={`/images/${image}`} alt="" className='w-full h-full object-cover' />
+              <img src={`/images/${image}`} alt="" className={`object-cover ${home ? "md:absolute md:w-96 md:left-10 md:-bottom-32" : "w-full h-full"}`} />
             </div>
         </div>
     </section>
