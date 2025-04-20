@@ -28,8 +28,8 @@ function SubServiceHero({ txt, image, title }: SubServiceHeroProps) {
           </div>
         </div>
       </section>
-      <div className="absolute top-0 left-0 w-screen h-screen fade z-20"></div>
-      <div className="absolute top-0 left-0 w-screen h-screen z-10">
+      <div className="absolute top-0 left-0 w-screen h-screen fade z-20 max-h-[800px] min-h-[700px]"></div>
+      <div className="absolute top-0 left-0 w-screen h-screen z-10 max-h-[800px] min-h-[700px]">
         <video className="w-screen h-full object-cover" autoPlay muted loop>
           <source src="/bg-service.mp4" type="video/mp4" />
         </video>
