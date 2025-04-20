@@ -117,7 +117,7 @@ export const subServicesdata = [
             txt: "Providing clear, actionable data to guide strategic decisions."
         },
     ],
-    chooseUsImage: "trust.png"
+    chooseUsImage: "img-1.jpg"
   },
   {
     url: "taxation-services",
@@ -212,7 +212,7 @@ export const subServicesdata = [
         txt: "From initial planning to filing and audit defense, our team is with you at every step.",
       },
     ],
-    chooseUsImage: "trust.png",
+    chooseUsImage: "img-1.jpg",
   },
   {
     url: "financial-consulting",
@@ -300,7 +300,7 @@ export const subServicesdata = [
         txt: "From financial strategy to regulatory compliance, we cover it all."
       }
     ],
-    chooseUsImage: "trust.png"
+    chooseUsImage: "img-1.jpg"
   },
   {
     url: "business-advisory-services",
@@ -388,7 +388,7 @@ export const subServicesdata = [
         txt: "Build a resilient, scalable operation that adapts to changing market conditions."
       }
     ],
-    chooseUsImage: "trust.png"
+    chooseUsImage: "img-1.jpg"
   },
   {
     "url": "compliance-and-regulatory-services",
@@ -452,7 +452,7 @@ export const subServicesdata = [
         "txt": "From financial strategy to regulatory compliance, we cover it all."
       }
     ],
-    "chooseUsImage": "trust.png"
+    "chooseUsImage": "img-1.jpg"
   },  
   {
     "url": "specialized-services",
@@ -528,7 +528,7 @@ export const subServicesdata = [
         "txt": "Benefit from clear, detailed reports and actionable insights."
       }
     ],
-    "chooseUsImage": "trust.png"
+    "chooseUsImage": "img-1.jpg"
   },
   
   {
@@ -597,7 +597,7 @@ export const subServicesdata = [
         "txt": "Safeguard your financial future through proactive planning and protection."
       }
     ],
-    "chooseUsImage": "trust.png"
+    "chooseUsImage": "img-1.jpg"
   },
   {
     "url": "cost-management",
@@ -689,7 +689,7 @@ export const subServicesdata = [
         "txt": "Ongoing monitoring and refinement of cost strategies to maximize ROI."
       }
     ],
-    "chooseUsImage": "trust.png"
+    "chooseUsImage": "img-1.jpg"
   }
   
   

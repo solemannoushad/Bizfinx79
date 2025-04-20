@@ -16,7 +16,6 @@ function TrustBadge({title, txt, image, navigateTo}: TrustBadgeProps) {
 
   return (
     <section className="section trust-badge-section mt-10">
-        {/* <div className="divider border-b-2 border-black w-16 mx-auto mt-10"></div> */}
         <div className="trust-badge-container w-full flex flex-col-reverse md:flex-row items-center my-10 mx-auto px-10 py-14 rounded-4xl bg-foreground text-white">
             <div className="w-full md:w-1/2 flex flex-col">
               <p className='font-semibold text-5xl uppercase'>{title}</p>

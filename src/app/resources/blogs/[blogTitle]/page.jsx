@@ -3,13 +3,14 @@ import { blogsData } from '@/content/blogs';
 import { notFound } from 'next/navigation';
 import React from 'react'
 
-interface Props {
-  params: {
-    blogTitle: string;
-  };
-} 
 
-function page({ params }: Props) {
+export async function generateStaticParams() {
+  return blogsData.map(item => ({
+    blogTitle: item.url,
+  }));
+}
+
+async function page({ params }) {
   const { blogTitle } = params;
   const blogData = blogsData.find(item => item.url === blogTitle);
   

@@ -61,7 +61,10 @@ function Navbar() {
         onMouseLeave={hideDropdown}
       >
         <div className='flex items-center justify-between px-8 py-6 w-full z-40 max-w-7xl mx-auto'>
-          <div className="logo">BizFinX79</div>
+          <Link href="/">
+          <img src='/logo.png' className="w-32"
+                alt="BizFinX79" />
+          </Link>
           <ul className="nav-menu flex relative">
             {menu.map(({ title, path }) => (
               <li onMouseOver={() => showDropdown(title)} className='mx-3' key={title}>

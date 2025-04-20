@@ -25,8 +25,8 @@ export default function Footer() {
           <div className="footer-about">
             <div className="footer-logo text-2xl text-white tracking-widest mb-6">
               <img
-                src="/icons/devstella-logo1.svg"
-                className="w-24"
+                src="/logo.png"
+                className="w-32"
                 alt="BizFinX79"
               />
             </div>

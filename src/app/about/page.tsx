@@ -1,4 +1,5 @@
 import BlogsSection from '@/components/BlogsSection'
+import Dashboard from '@/components/Dashboard'
 import Heading from '@/components/Heading'
 import Hero from '@/components/Hero'
 import StatsBox from '@/components/StatsBox'
@@ -42,6 +43,7 @@ function page() {
             <Heading title='Why Choose Us' />
             <StatsBox />
         </div>
+        <Dashboard />
         <section className="section">
             <Heading title="Testimonials" />
         <TestinomialSlider />
