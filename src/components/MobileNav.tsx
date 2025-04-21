@@ -63,7 +63,10 @@ export default function MobileNav() {
       <div className={`px-8 py-6 flex justify-between items-center ${isScrolled ? "bg-foreground" : "bg-transparent"}`}>
         <div className="logo text-xl text-white tracking-widest">
           {/* <img src="/icons/devstella-logo1.svg" className="w-20" alt="" /> */}
-          Bizfinx79
+          <Link href="/">
+          <img src='/logo.png' className="w-32"
+                alt="BizFinX79" />
+          </Link>
         </div>
         <button onClick={toggleMenu} className="text-white text-2xl z-40">
           <i className={`iconoir-${isMenuOpen ? "xmark" : "menu"}`}></i>
