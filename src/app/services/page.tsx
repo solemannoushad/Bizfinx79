@@ -21,7 +21,7 @@ function page() {
       <Hero heading='services' subheading='Best Accounting and Tax Services Online for Startups and Small Busiensses' />
 
       <section className="section">
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-center'>
+        <div className='service-cards-main grid grid-cols-1 md:grid-cols-2 gap-4 justify-center'>
           {
             serviceContent.cards.map((item) => {
               const { url, title, points } = item;
