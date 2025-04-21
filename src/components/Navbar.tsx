@@ -4,7 +4,7 @@ import { menu } from '@/content/menu'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import Button from './Button'
-import { usePathname } from 'next/navigation' // ✅ Using usePathname for client-side routing info
+import { usePathname } from 'next/navigation'
 import { useNavigate } from '@/utils/navigation'
 
 interface MenuItem {
@@ -20,9 +20,8 @@ function Navbar() {
   const [show, setShow] = useState(false)
   const [dropdown, setDropdown] = useState<MenuItem[]>([])
 
-  const pathname = usePathname() // ✅ Get current path
+  const pathname = usePathname()
 
-  // ✅ Auto-hide dropdown when pathname changes (i.e. on navigation)
   useEffect(() => {
     setShow(false)
     setDropdown([])

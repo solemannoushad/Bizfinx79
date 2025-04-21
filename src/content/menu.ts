@@ -12,12 +12,84 @@ export const menu = [
             {
                 title: 'Accounting Services',
                 path: '/services/accounting-services',
-                dropdown: []
+                dropdown: [
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Bookkeeping & Financial Record Management',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                ]
             },
             {
                 title: 'Taxation Services',
                 path: '/services/taxation-services',
-                dropdown: []
+                dropdown: [
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                    {
+                        title: 'Corporate Tax Returns Preparation & Filing',
+                        path: '/services/accounting-services#bookkeeping-financial-record-management',
+                        dropdown: []
+                    },
+                ]
             },
             {
                 title: 'Financial Consulting',
@@ -54,43 +126,7 @@ export const menu = [
     {
         title: 'Industries',
         path: '/industries',
-        dropdown: [
-            // {
-            //     title: 'Healthcare',
-            //     path: '/',
-            //     dropdown: []
-            // },
-            // {
-            //     title: 'Retail and Consumer Packaged Goods',
-            //     path: '/',
-            //     dropdown: []
-            // },
-            // {
-            //     title: 'Financial Services',
-            //     path: '/',
-            //     dropdown: []    
-            // },
-            // {
-            //     title: 'Private Equity',
-            //     path: '/',
-            //     dropdown: []    
-            // },
-            // {
-            //     title: 'Manufacturing & Logistics',
-            //     path: '/',
-            //     dropdown: []    
-            // },
-            // {
-            //     title: 'Restaurants',
-            //     path: '/',
-            //     dropdown: []    
-            // },
-            // {
-            //     title: 'Technology ',
-            //     path: '/',
-            //     dropdown: []    
-            // },
-        ]
+        dropdown: []
     },
     {
         title: 'Resources',
