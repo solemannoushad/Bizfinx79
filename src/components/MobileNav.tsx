@@ -11,7 +11,12 @@ export default function MobileNav() {
   const [openDropdown, setOpenDropdown] = useState(null)
   const router = useRouter()
 
+  
   const navigate = useNavigate();
+  const navigateToContact = () => {
+    setIsMenuOpen(false)
+    navigate("/contact")
+  }
 
       const [isScrolled, setIsScrolled] = useState(false);
   
@@ -125,7 +130,7 @@ export default function MobileNav() {
           <Button
             title="Contact"
             onClick={() => {
-              navigate("/contact")
+              navigateToContact()
             }}
           />
           </div>

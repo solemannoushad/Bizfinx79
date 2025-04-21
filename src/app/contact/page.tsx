@@ -29,7 +29,7 @@ function page() {
   return (
     <>
         <Hero heading='Contact Us' subheading='Get in Touch with Us' />
-        <div className='max-w-4xl mx-auto my-16'>
+        <div className='max-w-4xl mx-auto my-16 px-10'>
             <Heading title="Let's turn your vision"  />
             <div className='my-10'>
                 <ContactForm />

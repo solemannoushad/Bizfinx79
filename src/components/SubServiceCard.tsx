@@ -25,31 +25,28 @@ function SubServiceCard({ title, points, id }: CoreSpecialitiesCardProps) {
       setHash(window.location.hash.substring(1))
     }
 
-    // Run once on mount
     updateHash()
-
-    // Update when hash changes
     window.addEventListener("hashchange", updateHash)
-
-    return () => {
-      window.removeEventListener("hashchange", updateHash)
-    }
+    return () => window.removeEventListener("hashchange", updateHash)
   }, [])
 
   useEffect(() => {
     if (hash === id) {
       setShow(true)
       setTimeout(scrollToElementWithOffset, 100)
-    } else {
-      setShow(false)
     }
-  }, [])
+  }, [hash, id]) // ✅ depend on hash
+
+  const handleToggle = () => {
+    setShow((prev) => !prev)
+  }
 
   return (
     <div
       className="flex flex-col py-3 px-6 cursor-pointer border-2 border-[#f5f5f5] rounded-4xl"
       id={id}
       ref={cardRef}
+      onClick={handleToggle} // ✅ Toggle manually
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center">
