@@ -4,15 +4,17 @@ import React, { useState } from 'react'
 interface CoreSpecialitiesCardProps {
     title: string;
     points: string[];
+    id: string;
 }
 
-function SubServiceCard({ title, points }: CoreSpecialitiesCardProps) {
+function SubServiceCard({ title, points, id }: CoreSpecialitiesCardProps) {
     const [show, setShow] = useState(false);
 
     return (
         <div 
             className='flex flex-col py-3 px-6 cursor-pointer border-2 border-[#f5f5f5] rounded-4xl'
             onClick={() => setShow(!show)}
+            id={id}
         >
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>

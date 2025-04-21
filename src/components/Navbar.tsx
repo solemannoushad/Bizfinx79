@@ -85,7 +85,7 @@ function Navbar() {
   }, [])
 
   return (
-    <header className={`w-screen z-40 ${isScrolled ? "bg-foreground" : "bg-transparent"} fixed`}>
+    <header className={`w-screen z-40 ${isScrolled ? "bg-foreground" : "bg-transparent"} relative`}>
       <nav
         className={`${show && "bg-foreground/90 shadow-lg backdrop-blur-lg backdrop-opacity-50 h-[300px] duration-300"} text-white w-full z-40 duration-300`}
         onMouseLeave={hideDropdown}

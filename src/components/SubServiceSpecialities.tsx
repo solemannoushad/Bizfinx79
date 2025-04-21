@@ -25,15 +25,15 @@ function SubServiceSpecialities({coreSpecialities}: SubServiceSpecialitiesProps)
       <div className="my-10 flex flex-col gap-4">
         {/* Left Column */}
         <div className="flex-1 flex flex-col gap-4">
-          {leftColumn.map(({  title, points }) => (
-            <SubServiceCard key={title}  title={title} points={points} />
+          {leftColumn.map(({  title, points, id }) => (
+            <SubServiceCard key={title}  title={title} points={points} id={id} />
           ))}
         </div>
 
         {/* Right Column */}
         <div className="flex-1 flex flex-col gap-4">
-          {rightColumn.map(({  title, points }) => (
-            <SubServiceCard key={title}  title={title} points={points} />
+          {rightColumn.map(({  title, points, id }) => (
+            <SubServiceCard key={title}  title={title} points={points} id={id} />
           ))}
         </div>
       </div>

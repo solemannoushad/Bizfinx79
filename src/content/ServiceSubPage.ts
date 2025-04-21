@@ -16,6 +16,7 @@ export const subServicesdata = [
       heading: "Our Comprehensive Accounting Services",
       specialities: [
         {
+          id: "bookkeeping-financial-record-management",
           title: "Bookkeeping & Financial Record Management",
           points: [
             "Maintain error-free financial records with precise bookkeeping.",
@@ -24,6 +25,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "financial-statement-preparation-analysis",
           title: "Financial Statement Preparation & Analysis",
           points: [
             "Develop detailed income statements, balance sheets, and cash flow reports.",
@@ -33,6 +35,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "accounts-payable-receivable-management",
           title: "Accounts Payable & Receivable Management",
           points: [
             "Optimize invoice management and vendor payments to improve cash flow.",
@@ -41,6 +44,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "inventory-cost-management",
           title: "Inventory & Cost Management",
           points: [
             "Implement effective inventory tracking to optimize stock levels.",
@@ -49,6 +53,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "payroll-processing-compliance",
           title: "Payroll Processing & Compliance",
           points: [
             "Ensure timely, accurate payroll processing with tax compliance.",
@@ -57,6 +62,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "customer-billing-invoicing-automation",
           title: "Customer Billing & Invoicing Automation",
           points: [
             "Streamline invoicing processes for faster, more accurate billing.",
@@ -65,6 +71,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "tax-planning-preparation-filing",
           title: "Tax Planning, Preparation & Filing",
           points: [
             "Stay compliant with corporate and personal tax laws while maximizing returns.",
@@ -73,6 +80,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "bank-reconciliation-fraud-prevention",
           title: "Bank Reconciliation & Fraud Prevention",
           points: [
             "Detect discrepancies early with detailed bank statement matching.",
@@ -81,6 +89,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "budgeting-forecasting-strategic-planning",
           title: "Budgeting, Forecasting & Strategic Planning",
           points: [
             "Develop customized financial strategies for sustainable growth.",
@@ -89,6 +98,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "audit-support-compliance-advisory",
           title: "Audit Support & Compliance Advisory",
           points: [
             "Prepare audit-ready financial statements with in-depth documentation.",
@@ -96,7 +106,7 @@ export const subServicesdata = [
             "Get expert support during regulatory audits and financial reviews.",
           ],
         },
-      ],
+      ]
     },
     chooseHeading: "Why Choose BizFinx79?",
     choosePoints: [
@@ -136,6 +146,7 @@ export const subServicesdata = [
       heading: "Our Comprehensive Tax Services",
       specialities: [
         {
+          id: "corporate-tax-returns-preparation-filing",
           title: "Corporate Tax Returns Preparation & Filing",
           points: [
             "Ensure accurate corporate tax filings to avoid penalties and optimize liabilities.",
@@ -143,6 +154,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "sales-tax-vat-services",
           title: "Sales Tax / Value Added Tax (VAT) Services",
           points: [
             "Manage VAT compliance with precise tax calculations and timely filings.",
@@ -150,6 +162,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "withholding-tax-compliance",
           title: "Withholding Tax Compliance",
           points: [
             "Stay compliant with withholding tax regulations to avert financial risks.",
@@ -157,6 +170,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "tax-advisory",
           title: "Tax Advisory",
           points: [
             "Receive customized tax-saving strategies for businesses and individuals.",
@@ -164,6 +178,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "zatca-compliance",
           title: "ZATCA Compliance",
           points: [
             "Seamlessly manage e-invoicing, tax documentation, and mandatory zakat and customs reporting.",
@@ -171,6 +186,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "personal-tax-services",
           title: "Personal Tax Services",
           points: [
             "Simplify personal tax filings with expert assistance and proven processes.",
@@ -178,6 +194,7 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "international-taxation",
           title: "International Taxation",
           points: [
             "Manage cross-border tax complexities with a global perspective.",
@@ -185,13 +202,14 @@ export const subServicesdata = [
           ],
         },
         {
+          id: "tax-audit-representation",
           title: "Tax Audit Representation",
           points: [
             "Receive professional support during tax audits for peace of mind.",
             "Be well-prepared and effectively advocated for before tax authorities.",
           ],
         },
-      ],
+      ]
     },
     chooseHeading: "Why Choose BizFinx79 for Your Tax Needs?",
     choosePoints: [
@@ -231,6 +249,7 @@ export const subServicesdata = [
       heading: "Our Key Financial Consulting Services",
       specialities: [
         {
+          id: "business-valuation",
           title: "Business Valuation",
           points: [
             "Assess your company’s true market worth through income based approach and market based approach.",
@@ -238,6 +257,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "financial-planning",
           title: "Financial Planning",
           points: [
             "Develop customized financial roadmaps for long-term success.",
@@ -245,6 +265,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "cash-flow-management",
           title: "Cash Flow Management",
           points: [
             "Enhance working capital with strategic cash flow monitoring.",
@@ -252,6 +273,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "investment-advisory",
           title: "Investment Advisory",
           points: [
             "Receive expert guidance on portfolio diversification and risk assessment.",
@@ -259,6 +281,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "risk-management",
           title: "Risk Management",
           points: [
             "Identify potential financial risks and devise mitigation strategies.",
@@ -266,6 +289,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "debt-management",
           title: "Debt Management",
           points: [
             "Develop effective debt reduction plans for financial stability.",
@@ -273,6 +297,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "compliance-regulatory-services",
           title: "Compliance & Regulatory Services",
           points: [
             "Navigate complex regulations with confidence and ease.",
@@ -280,6 +305,7 @@ export const subServicesdata = [
           ]
         }
       ]
+      
     },
     chooseHeading: "Why Choose BizFinx79?",
     choosePoints: [
@@ -319,6 +345,7 @@ export const subServicesdata = [
       heading: "Our Core Business Advisory Services",
       specialities: [
         {
+          id: "startup-consulting",
           title: "Startup Consulting",
           points: [
             "Receive comprehensive support for launching and scaling your startup.",
@@ -326,6 +353,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "business-plan-development",
           title: "Business Plan Development",
           points: [
             "Craft robust business plans designed for growth and investor appeal.",
@@ -333,6 +361,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "projections",
           title: "Projections",
           points: [
             "Forecast financial performance using reliable modeling techniques.",
@@ -340,6 +369,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "pitch-deck",
           title: "Pitch Deck",
           points: [
             "Create compelling presentations to attract investors and secure partnerships.",
@@ -347,6 +377,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "mergers-acquisitions",
           title: "Mergers & Acquisitions (M&A)",
           points: [
             "Navigate complex M&A processes with expert valuation and due diligence.",
@@ -354,6 +385,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "exit-strategy-planning",
           title: "Exit Strategy Planning",
           points: [
             "Plan a successful business exit that maximizes financial returns.",
@@ -361,6 +393,7 @@ export const subServicesdata = [
           ]
         },
         {
+          id: "cost-reduction-analysis",
           title: "Cost Reduction Analysis",
           points: [
             "Identify cost-saving opportunities to boost profitability.",
@@ -368,6 +401,7 @@ export const subServicesdata = [
           ]
         }
       ]
+      
     },
     chooseHeading: "Why Choose BizFinx79 for Business Advisory?",
     choosePoints: [
@@ -402,36 +436,41 @@ export const subServicesdata = [
     "secondCardTxt": "By monitoring regulatory changes, conducting internal reviews, and streamlining documentation, we help businesses stay audit-ready and legally protected at all times.",
     "coreSpecialities": {
       "heading": "Our Compliance & Regulatory Offerings",
-      "specialities": [
-        {
-          "title": "Corporate Compliance",
-          "points": [
-            "Maintain legal and financial compliance to mitigate business risks and avoid penalties.",
-            "Stay aligned with ever-changing regulatory requirements."
-          ]
-        },
-        {
-          "title": "GST/VAT Compliance",
-          "points": [
-            "Ensure accurate GST/VAT filings and reporting to meet tax obligations seamlessly.",
-            "Adhere to all tax regulations without errors."
-          ]
-        },
-        {
-          "title": "SEC Filings",
-          "points": [
-            "Stay compliant with securities regulations by managing financial disclosures and filings effectively.",
-            "Handle all necessary submissions with accuracy and timeliness."
-          ]
-        },
-        {
-          "title": "Annual Report Preparation",
-          "points": [
-            "Create comprehensive annual reports that meet corporate governance requirements and regulatory standards.",
-            "Provide financial transparency and accountability."
-          ]
-        }
-      ]
+     "specialities": [
+  {
+    "id": "corporate-compliance",
+    "title": "Corporate Compliance",
+    "points": [
+      "Maintain legal and financial compliance to mitigate business risks and avoid penalties.",
+      "Stay aligned with ever-changing regulatory requirements."
+    ]
+  },
+  {
+    "id": "gst-vat-compliance",
+    "title": "GST/VAT Compliance",
+    "points": [
+      "Ensure accurate GST/VAT filings and reporting to meet tax obligations seamlessly.",
+      "Adhere to all tax regulations without errors."
+    ]
+  },
+  {
+    "id": "sec-filings",
+    "title": "SEC Filings",
+    "points": [
+      "Stay compliant with securities regulations by managing financial disclosures and filings effectively.",
+      "Handle all necessary submissions with accuracy and timeliness."
+    ]
+  },
+  {
+    "id": "annual-report-preparation",
+    "title": "Annual Report Preparation",
+    "points": [
+      "Create comprehensive annual reports that meet corporate governance requirements and regulatory standards.",
+      "Provide financial transparency and accountability."
+    ]
+  }
+]
+
     },
     "chooseHeading": "Why Choose BizFinx79?",
     "choosePoints": [
@@ -467,47 +506,53 @@ export const subServicesdata = [
     "coreSpecialities": {
       "heading": "Specialized Accounting Services",
       "specialities": [
-        {
-          "title": "Nonprofit Accounting",
-          "points": [
-            "Manage funds and donations with transparency.",
-            "Ensure compliance with nonprofit regulations and standards.",
-            "Enhance stakeholder trust through accurate financial reporting."
-          ]
-        },
-        {
-          "title": "Real Estate Accounting",
-          "points": [
-            "Streamline property transactions, rental income, and asset management.",
-            "Maintain comprehensive financial records for regulatory compliance.",
-            "Improve profitability through strategic cost analysis and revenue tracking."
-          ]
-        },
-        {
-          "title": "E-commerce Accounting",
-          "points": [
-            "Track online sales and multi-channel revenue streams effectively.",
-            "Handle tax obligations (e.g., sales tax) for online businesses.",
-            "Gain real-time insights into inventory, cash flow, and performance."
-          ]
-        },
-        {
-          "title": "Forensic Accounting",
-          "points": [
-            "Detect and investigate financial discrepancies or fraud.",
-            "Strengthen internal controls to prevent future issues.",
-            "Provide detailed reports and expert testimony when needed."
-          ]
-        },
-        {
-          "title": "International Accounting",
-          "points": [
-            "Manage international transactions, global taxation, and currency conversions.",
-            "Stay compliant with international reporting standards (IFRS, GAAP, etc.).",
-            "Mitigate risks with strategic planning for multinational operations."
-          ]
-        }
-      ]
+  {
+    "id": "nonprofit-accounting",
+    "title": "Nonprofit Accounting",
+    "points": [
+      "Manage funds and donations with transparency.",
+      "Ensure compliance with nonprofit regulations and standards.",
+      "Enhance stakeholder trust through accurate financial reporting."
+    ]
+  },
+  {
+    "id": "real-estate-accounting",
+    "title": "Real Estate Accounting",
+    "points": [
+      "Streamline property transactions, rental income, and asset management.",
+      "Maintain comprehensive financial records for regulatory compliance.",
+      "Improve profitability through strategic cost analysis and revenue tracking."
+    ]
+  },
+  {
+    "id": "ecommerce-accounting",
+    "title": "E-commerce Accounting",
+    "points": [
+      "Track online sales and multi-channel revenue streams effectively.",
+      "Handle tax obligations (e.g., sales tax) for online businesses.",
+      "Gain real-time insights into inventory, cash flow, and performance."
+    ]
+  },
+  {
+    "id": "forensic-accounting",
+    "title": "Forensic Accounting",
+    "points": [
+      "Detect and investigate financial discrepancies or fraud.",
+      "Strengthen internal controls to prevent future issues.",
+      "Provide detailed reports and expert testimony when needed."
+    ]
+  },
+  {
+    "id": "international-accounting",
+    "title": "International Accounting",
+    "points": [
+      "Manage international transactions, global taxation, and currency conversions.",
+      "Stay compliant with international reporting standards (IFRS, GAAP, etc.).",
+      "Mitigate risks with strategic planning for multinational operations."
+    ]
+  }
+]
+
     },
     "chooseHeading": "Why Choose BizFinx79 for Specialized Services?",
     "choosePoints": [
@@ -544,39 +589,44 @@ export const subServicesdata = [
     "coreSpecialities": {
       "heading": "Our Additional Financial Services",
       "specialities": [
-        {
-          "title": "Virtual CFO Services",
-          "points": [
-            "Gain the strategic financial leadership of a CFO without hiring a full-time executive.",
-            "Make informed decisions backed by expert guidance on budgeting, forecasting, and growth strategies.",
-            "Enhance financial oversight while maintaining cost efficiency."
-          ]
-        },
-        {
-          "title": "Estate Planning",
-          "points": [
-            "Secure your financial legacy through meticulous asset distribution and management.",
-            "Protect beneficiaries by ensuring tax efficiency and compliance with legal requirements.",
-            "Enjoy peace of mind knowing your wealth transfer is carefully planned."
-          ]
-        },
-        {
-          "title": "Retirement Planning",
-          "points": [
-            "Prepare for a financially stable retirement with our expert advisory services.",
-            "Create a personalized roadmap that aligns with your long-term goals.",
-            "Monitor and adjust your plan over time to maximize returns and minimize risks."
-          ]
-        },
-        {
-          "title": "Insurance Advisory",
-          "points": [
-            "Select the right insurance policies to protect your business and personal assets.",
-            "Receive risk analysis and tailored coverage recommendations.",
-            "Safeguard against unexpected events while ensuring cost-effective coverage."
-          ]
-        }
-      ]
+  {
+    "id": "virtual-cfo-services",
+    "title": "Virtual CFO Services",
+    "points": [
+      "Gain the strategic financial leadership of a CFO without hiring a full-time executive.",
+      "Make informed decisions backed by expert guidance on budgeting, forecasting, and growth strategies.",
+      "Enhance financial oversight while maintaining cost efficiency."
+    ]
+  },
+  {
+    "id": "estate-planning",
+    "title": "Estate Planning",
+    "points": [
+      "Secure your financial legacy through meticulous asset distribution and management.",
+      "Protect beneficiaries by ensuring tax efficiency and compliance with legal requirements.",
+      "Enjoy peace of mind knowing your wealth transfer is carefully planned."
+    ]
+  },
+  {
+    "id": "retirement-planning",
+    "title": "Retirement Planning",
+    "points": [
+      "Prepare for a financially stable retirement with our expert advisory services.",
+      "Create a personalized roadmap that aligns with your long-term goals.",
+      "Monitor and adjust your plan over time to maximize returns and minimize risks."
+    ]
+  },
+  {
+    "id": "insurance-advisory",
+    "title": "Insurance Advisory",
+    "points": [
+      "Select the right insurance policies to protect your business and personal assets.",
+      "Receive risk analysis and tailored coverage recommendations.",
+      "Safeguard against unexpected events while ensuring cost-effective coverage."
+    ]
+  }
+]
+
     },
     "chooseHeading": "Why Choose BizFinx79 for Extended Services?",
     "choosePoints": [
@@ -612,63 +662,72 @@ export const subServicesdata = [
     "coreSpecialities": {
       "heading": "Our Comprehensive Cost Management Services",
       "specialities": [
-        {
-          "title": "Standard Costing",
-          "points": [
-            "Establish accurate cost standards to measure performance.",
-            "Improve cost efficiency through detailed benchmarking and analysis."
-          ]
-        },
-        {
-          "title": "Conducting Variance Analysis",
-          "points": [
-            "Identify discrepancies between expected and actual costs.",
-            "Drive better decision-making by understanding root causes and corrective measures."
-          ]
-        },
-        {
-          "title": "Budgeting & Forecasting",
-          "points": [
-            "Develop financial forecasts and budgets to plan future expenditures effectively.",
-            "Align resource allocation with strategic objectives for sustained growth."
-          ]
-        },
-        {
-          "title": "Cost of Production Report",
-          "points": [
-            "Generate detailed reports on production costs to optimize manufacturing and pricing strategies.",
-            "Uncover efficiency gaps to minimize waste and increase profit margins."
-          ]
-        },
-        {
-          "title": "Handling Bill of Material & Reporting",
-          "points": [
-            "Maintain accurate cost tracking by managing the bill of materials effectively.",
-            "Ensure transparent reporting of all material usage and related costs."
-          ]
-        },
-        {
-          "title": "Cost Controlling Measures",
-          "points": [
-            "Implement strategic initiatives to reduce unnecessary expenses.",
-            "Continuously monitor and adjust cost strategies to maintain profitability."
-          ]
-        },
-        {
-          "title": "Implementing Lean Operations",
-          "points": [
-            "Adopt lean methodologies to eliminate waste and improve productivity.",
-            "Enhance operational workflows for a more agile, cost-effective environment."
-          ]
-        },
-        {
-          "title": "Preparing Cost Reports",
-          "points": [
-            "Compile structured cost reports that offer valuable financial insights.",
-            "Facilitate data-driven decision-making to drive sustainable growth."
-          ]
-        }
-      ]
+  {
+    "id": "standard-costing",
+    "title": "Standard Costing",
+    "points": [
+      "Establish accurate cost standards to measure performance.",
+      "Improve cost efficiency through detailed benchmarking and analysis."
+    ]
+  },
+  {
+    "id": "conducting-variance-analysis",
+    "title": "Conducting Variance Analysis",
+    "points": [
+      "Identify discrepancies between expected and actual costs.",
+      "Drive better decision-making by understanding root causes and corrective measures."
+    ]
+  },
+  {
+    "id": "budgeting-and-forecasting",
+    "title": "Budgeting & Forecasting",
+    "points": [
+      "Develop financial forecasts and budgets to plan future expenditures effectively.",
+      "Align resource allocation with strategic objectives for sustained growth."
+    ]
+  },
+  {
+    "id": "cost-of-production-report",
+    "title": "Cost of Production Report",
+    "points": [
+      "Generate detailed reports on production costs to optimize manufacturing and pricing strategies.",
+      "Uncover efficiency gaps to minimize waste and increase profit margins."
+    ]
+  },
+  {
+    "id": "handling-bill-of-material-and-reporting",
+    "title": "Handling Bill of Material & Reporting",
+    "points": [
+      "Maintain accurate cost tracking by managing the bill of materials effectively.",
+      "Ensure transparent reporting of all material usage and related costs."
+    ]
+  },
+  {
+    "id": "cost-controlling-measures",
+    "title": "Cost Controlling Measures",
+    "points": [
+      "Implement strategic initiatives to reduce unnecessary expenses.",
+      "Continuously monitor and adjust cost strategies to maintain profitability."
+    ]
+  },
+  {
+    "id": "implementing-lean-operations",
+    "title": "Implementing Lean Operations",
+    "points": [
+      "Adopt lean methodologies to eliminate waste and improve productivity.",
+      "Enhance operational workflows for a more agile, cost-effective environment."
+    ]
+  },
+  {
+    "id": "preparing-cost-reports",
+    "title": "Preparing Cost Reports",
+    "points": [
+      "Compile structured cost reports that offer valuable financial insights.",
+      "Facilitate data-driven decision-making to drive sustainable growth."
+    ]
+  }
+]
+
     },
     "chooseHeading": "Why Choose BizFinx79 for Cost Management?",
     "choosePoints": [
