@@ -1,25 +1,53 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Button from "./Button";
 import Link from "next/link";
+import AnimatedNotification from "./AnimatedNotification";
+import emailjs from "@emailjs/browser";
 
 export default function Footer() {
   const [form, setForm] = useState("");
   const [isVisible, setIsVisible] = useState(false);
   const [msg, setMsg] = useState("");
+  const formRef = useRef<HTMLFormElement | null>(null);
 
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setMsg("Subscribed successfully");
-    setIsVisible(true);
-    setForm(""); // Clears input field after submission
+
+    if (formRef.current) {
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string;
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string;
+      const userId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID as string;
+      
+      emailjs
+        .sendForm(
+          serviceId,
+          templateId,
+          formRef.current,
+          userId,
+        )
+        .then(
+          () => {
+            console.log("SUCCESS! Message sent.");
+            setForm("");
+            setMsg("Subscribed successfully");
+            setIsVisible(true);
+          },
+          (error) => {
+            console.error("FAILED...", error);
+            setMsg("Network error. Please try again.");
+            setIsVisible(true);
+          },
+        );
+    }
   };
 
   const currentYear = new Date().getFullYear();
 
   return (
     <>
+      <AnimatedNotification message={msg} isVisible={isVisible} setIsVisible={setIsVisible} />
       <section className="text-white bg-foreground py-16 px-8 sm:px-6 lg:px-8 mt-16 max-w-7xl mx-auto">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="footer-about">
@@ -74,9 +102,10 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
               <a
-                    href="tel:+12678000191"
+                    href="https://wa.me/966538320746"
                     aria-label="Whatsapp"
                     className="text-white"
+                    target="_blank"
                   >
                     <svg viewBox="0 0 32 32" className="w-6 flex items-start">
                       <path
@@ -87,8 +116,9 @@ export default function Footer() {
                     </svg>
                   </a>
                 <a
-                  href="tel:+12678000191"
+                  href="https://wa.me/966538320746"
                   className="text-sm font-normal hover:text-secondary transition-colors"
+                  target="_blank"
                 >
                   00966-538320746
                 </a>
@@ -140,7 +170,8 @@ export default function Footer() {
               Newsletter
             </div>
             <div className="footer-form w-full">
-              <form onSubmit={handleFormSubmit} className="relative mb-6">
+              <form ref={formRef} onSubmit={handleFormSubmit} className="relative mb-6">
+                <input type="hidden" name="form_type" value="Newsletter" />
                 <input
                   className="bg-transparent w-full text-white placeholder-gray-400 border-b border-gray-400 focus:outline-none focus:border-gray-500 pb-3 text-base pr-10"
                   type="email"

@@ -2,7 +2,7 @@
 import React, { useState, useRef, ChangeEvent, FormEvent } from "react";
 import Button from "./Button";
 import emailjs from "@emailjs/browser";
-import Heading from "./Heading";
+import AnimatedNotification from "./AnimatedNotification";
 
 type FormFields = {
   name: string;
@@ -45,6 +45,8 @@ function ContactForm() {
       .sendForm(serviceId, templateId, formRef.current, userId)
       .then(
         () => {
+          setMsg("Message sent successfully. We will contact you soon.");
+          setIsVisible(true);
           console.log("SUCCESS! Message sent.");
           setIsVisible(true);
           setMsg("Message Sent. We will contact you soon");
@@ -57,19 +59,21 @@ function ContactForm() {
         },
         (error) => {
           console.error("FAILED...", error);
+          setMsg("Network error. Please try again.");
           setIsVisible(true);
-          setMsg("Failed to send message. Please try again.");
         }
       );
   };
 
   return (
     <>
+      <AnimatedNotification message={msg} isVisible={isVisible} setIsVisible={setIsVisible} />
       <form
         ref={formRef}
         onSubmit={handleSubmit}
         className="flex mx-auto flex-col"
       >
+        <input type="hidden" name="form_type" value="Contact" />
         <div className="flex w-full flex-col md:flex-row">
           <input
             className="my-5 mr-5 w-full text-black placeholder-foreground border-b border-foreground focus:outline-none focus:border-secondary focus:transition-colors focus:duration-300 pb-3 text-base"
