@@ -137,6 +137,7 @@ function Navbar() {
                               key={item.title}
                               href={item.path}
                               className="text-base hover:text-secondary duration-300"
+                              onClick={hideDropdown} // Add onClick to close all dropdowns when clicked
                             >
                               {item.title}
                             </Link>

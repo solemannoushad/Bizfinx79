@@ -4,11 +4,14 @@ import React, { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { menu } from "@/content/menu"
 import Button from "./Button"
+import { useNavigate } from "@/utils/navigation"
 
 export default function MobileNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState(null)
   const router = useRouter()
+
+  const navigate = useNavigate();
 
       const [isScrolled, setIsScrolled] = useState(false);
   
@@ -119,7 +122,12 @@ export default function MobileNav() {
             ))}
           </ul>
           <div className="mt-8 mb-4 flex justify-center">
-          <Button title='Contact' />
+          <Button
+            title="Contact"
+            onClick={() => {
+              navigate("/contact")
+            }}
+          />
           </div>
         </div>
       </div>
