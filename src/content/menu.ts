@@ -350,6 +350,11 @@ export const menu = [
                 title: 'Testinomials',
                 path: '/resources/testinomials',
                 dropdown: []
+            },
+            {
+                title: 'Dashboard',
+                path: '/resources/dashboard',
+                dropdown: []
             }
         ]
     },

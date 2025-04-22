@@ -1,86 +1,69 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
-// Hook to count up to the target value
-function useCountUp(target: number, shouldAnimate: boolean) {
+const stats = [
+  { title: "Projects Delivered", stats: "500+" },
+  { title: "Client Satisfaction", stats: "100%" },
+  { title: "High Positive Reviews", stats: "400+" },
+  { title: "Years of Expertise", stats: "15+" },
+];
+
+const parseStat = (stat: string) => {
+  const match = stat.match(/(\d+)(.*)/);
+  return {
+    number: parseInt(match?.[1] || "0", 10),
+    suffix: match?.[2] || "",
+  };
+};
+
+function AnimatedStat({ value, suffix }: { value: number; suffix: string }) {
   const [count, setCount] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
 
-  useEffect(() => {
-    if (!shouldAnimate) return;
+  const animateCount = () => {
+    if (hasAnimated) return;
+    setHasAnimated(true);
 
-    let start = 0;
-    const end = target;
-    const duration = 1000; // animation duration in ms
-    const startTime = performance.now();
-
-    const animate = (currentTime: number) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const currentCount = Math.floor(progress * end);
-      setCount(currentCount);
-
-      if (progress < 1) {
-        requestAnimationFrame(animate);
+    let current = 0;
+    const step = Math.ceil(value / 50);
+    const interval = setInterval(() => {
+      current += step;
+      if (current >= value) {
+        setCount(value);
+        clearInterval(interval);
       } else {
-        setCount(end); // Ensure it lands on the final value
+        setCount(current);
       }
-    };
+    }, 20);
+  };
 
-    requestAnimationFrame(animate);
-  }, [shouldAnimate, target]);
-
-  return count;
-}
-
-
-// Hook to detect when element is in view
-function useInViewOnce(ref: React.RefObject<HTMLElement>) {
-  const [hasBeenInView, setHasBeenInView] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasBeenInView) {
-          setHasBeenInView(true);
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, [ref, hasBeenInView]);
-
-  return hasBeenInView;
+  return (
+    <motion.h1
+      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      onViewportEnter={animateCount}
+      className="text-4xl font-medium group-hover:text-secondary text-center transition-all duration-300"
+    >
+      {count}
+      {suffix}
+    </motion.h1>
+  );
 }
 
 function StatsBox() {
-  const stats = [
-    { title: "Projects Delivered", stats: 500 },
-    { title: "Client Satisfaction", stats: 100 },
-    { title: "High Positive Reviews", stats: 400 },
-    { title: "Years of Expertise", stats: 15 },
-  ];
-
   return (
     <div className="flex flex-wrap bg-foreground text-white my-10 py-10 px-16 items-start justify-between shadow-md shadow-foreground">
-      {stats.map((stat, idx) => {
-        const ref = useRef<HTMLDivElement>(null);
-        const inViewOnce = useInViewOnce(ref);
-        const count = useCountUp(stat.stats, inViewOnce);
-
+      {stats.map(({ title, stats }) => {
+        const { number, suffix } = parseStat(stats);
         return (
           <div
-            key={idx}
-            ref={ref}
-            className="flex flex-col items-center cursor-pointer text-center group m-4"
+            key={title}
+            className="flex flex-col items-center cursor-pointer text-center group"
           >
-            <h1 className="text-4xl font-medium group-hover:text-secondary text-center transition-all duration-300">
-              {count}
-              {stat.stats >= 100 ? "+" : ""}
-            </h1>
-            <p className="text-lg font-light">{stat.title}</p>
+            <AnimatedStat value={number} suffix={suffix} />
+            <p className="text-lg font-light">{title}</p>
           </div>
         );
       })}

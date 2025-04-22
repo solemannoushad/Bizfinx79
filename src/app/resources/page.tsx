@@ -8,7 +8,6 @@ function page() {
   return (
     <>
         <Hero heading="Resources" subheading='Explore expert insights, success stories, and financial strategies to empower your journey.' />
-        <Dashboard />
         <BlogsSection />
         <TestinomialSection />
     </>
