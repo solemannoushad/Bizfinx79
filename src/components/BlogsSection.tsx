@@ -73,6 +73,7 @@ function BlogsSection() {
           onClick={() => {
             navigate("/resources/blogs");
           }}
+          icon={true}
         />
       </motion.div>
     </section>
