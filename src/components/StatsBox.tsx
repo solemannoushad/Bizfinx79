@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const stats = [
-  { title: "Projects Delivered", stats: "500+" },
+  { title: "Projects Delivered", stats: "1000+" },
   { title: "Client Satisfaction", stats: "100%" },
   { title: "High Positive Reviews", stats: "400+" },
   { title: "Years of Expertise", stats: "15+" },
