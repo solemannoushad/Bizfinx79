@@ -15,10 +15,6 @@ function page() {
                 <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>With over 15 years in the market, the company aims to serve clients globally, create jobs, foster connections, and build financial stability. The innovative approach combines advanced technology with expert human support, aiming to become a household name in financial services. This section builds trust by highlighting experience, commitment to client empowerment, and community impact.</p>
             </div>
 
-            <div className='my-10'>
-                <Heading title="Mission And vision" />
-                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>Financing a better future by accounting for the right figures.</p>
-            </div>
 
             <div className='my-10'>
                 <Heading title="Company History" />
@@ -27,7 +23,7 @@ function page() {
 
             <div className='my-10'>
                 <Heading title="Mission and Vision" />
-                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>Our mission is to provide financial solutions that are not only accurate and reliable but also personalized to meet your unique needs. We aim to be a global leader in financial services, creating jobs and fostering connections worldwide.</p>
+                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>Financing a better future by accounting for the right figures</p>
             </div>
 
             <div className='my-10'>
