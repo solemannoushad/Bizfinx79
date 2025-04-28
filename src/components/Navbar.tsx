@@ -131,9 +131,10 @@ function Navbar() {
                         onMouseOver={() => setActiveDropdownItem(title)}
                         onMouseOut={hideSecondDropdown}
                       >
-                        <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+                        <div className="grid grid-cols-2 gap-x-4 gap-y-2 px-4">
                           {secondDropdown.map((item) => (
-                            <Link
+                            <li className="list-disc" key={item.title}>
+                              <Link
                               key={item.title}
                               href={item.path}
                               className="text-base hover:text-secondary duration-300"
@@ -141,6 +142,7 @@ function Navbar() {
                             >
                               {item.title}
                             </Link>
+                            </li>
                           ))}
                         </div>
                       </div>

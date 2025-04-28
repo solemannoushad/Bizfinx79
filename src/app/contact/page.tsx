@@ -6,10 +6,6 @@ import React, { useEffect, useState } from 'react'
 
 function page() {
 
-    useEffect(() => {
-          document.title = "Contact Us - Devstella";
-        }, []);
-
 
     const icons = [
         {
@@ -20,10 +16,6 @@ function page() {
             name: 'phone',
             text: '00966-538320746'
         },
-        // {
-        //     name: 'map-pin',
-        //     text: '123 Innovation Drive, Tech City'
-        // },
     ]
 
   return (
