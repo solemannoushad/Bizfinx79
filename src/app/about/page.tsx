@@ -11,13 +11,18 @@ function page() {
         <Hero heading='About' subheading="BizFinx79 crafts innovative, integrity-driven financial solutions to secure your future with confidence." />
         <div className="about-content section">
             <div className='my-10'>
-                <Heading title="About Us and Mission" />
-                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>With over 10 years in the market, the company aims to serve clients globally, create jobs, foster connections, and build financial stability. The innovative approach combines advanced technology with expert human support, aiming to become a household name in financial services. This section builds trust by highlighting experience, commitment to client empowerment, and community impact.</p>
+                <Heading title="About" />
+                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>With over 15 years in the market, the company aims to serve clients globally, create jobs, foster connections, and build financial stability. The innovative approach combines advanced technology with expert human support, aiming to become a household name in financial services. This section builds trust by highlighting experience, commitment to client empowerment, and community impact.</p>
+            </div>
+
+            <div className='my-10'>
+                <Heading title="Mission And vision" />
+                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>Financing a better future by accounting for the right figures.</p>
             </div>
 
             <div className='my-10'>
                 <Heading title="Company History" />
-                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>With over 13 years of experience, BizFinx79 has been a trusted partner in financial success.</p>
+                <p className='text-[#616161] my-8 md:pr-20 text-justify leading-7'>With over 15 years of experience, BizFinx79 has been a trusted partner in financial success.</p>
             </div>
 
             <div className='my-10'>
