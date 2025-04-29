@@ -18,7 +18,7 @@ function page() {
   ];
   return (
     <>
-      <Hero heading='services' subheading='Best Accounting and Tax Services Online for Startups and Small Busiensses' />
+      <Hero heading='services' subheading='Best Accounting and Tax Services Online for Startups to large Businesses' />
 
       <section className="section">
         <div className='service-cards-main grid grid-cols-1 md:grid-cols-2 gap-4 justify-center'>
