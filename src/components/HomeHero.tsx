@@ -55,7 +55,7 @@ function HomeHero() {
         >
           <div className="img w-full h-[32rem] bg-transparent rounded-2xl overflow-hidden shadow-sm">
             <video className="w-full h-full object-cover" autoPlay muted loop>
-              <source src="/bg.mp4" type="video/mp4" />
+              <source src="/home-hero-bg.mp4" type="video/mp4" />
             </video>
           </div>
         </motion.div>
