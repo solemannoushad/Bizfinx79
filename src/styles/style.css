@@ -46,7 +46,7 @@
   
   .marquee-track {
     display: inline-flex;
-    animation: scroll-marquee 70s linear infinite;
+    animation: scroll-marquee 100s linear infinite;
   }
   
   @keyframes scroll-marquee {

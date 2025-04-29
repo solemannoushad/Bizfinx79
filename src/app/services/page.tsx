@@ -40,8 +40,8 @@ function page() {
       {/* TWO identical tracks side by side */}
       <div className="marquee-track">
         {[...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos].map((logo, index) => (
-          <div key={index} className="mx-6 flex-shrink-0 mt-20">
-            <p className='px-4 py-2 bg-secondary font-semibold uppercase'>{logo}</p>
+          <div key={index} className="mx-10 flex-shrink-0 mt-20">
+            <p className='px-6 py-4 bg-secondary font-semibold uppercase text-lg rounded-lg shadow-lg shadow-foreground'>{logo}</p>
           </div>
         ))}
       </div>
