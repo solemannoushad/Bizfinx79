@@ -329,6 +329,53 @@ export const menu = [
                     }
                   ]
                   
+            },
+            {
+                title: 'IT Services',
+                path: '/services/it-services',
+                "dropdown": [
+                  {
+                    "title": "Custom Software Development",
+                    "path": "/services/it-services#custom-software-development",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "Social Media Marketing",
+                    "path": "/services/it-services#social-media-marketing",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "Web Application Development",
+                    "path": "/services/it-services#web-app-development",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "Mobile Application Development",
+                    "path": "/services/it-services#mobile-app-development",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "AI & ML Product Development",
+                    "path": "/services/it-services#ai-ml-development",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "Digital Marketing",
+                    "path": "/services/it-services#digital-marketing",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "Human Resourcing",
+                    "path": "/services/it-services#human-resourcing",
+                    "dropdown": []
+                  },
+                  {
+                    "title": "IT Consulting",
+                    "path": "/services/it-services#it-consulting",
+                    "dropdown": []
+                  }
+                ]
+                  
             }
         ]
     },

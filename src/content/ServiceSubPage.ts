@@ -749,7 +749,109 @@ export const subServicesdata = [
       }
     ],
     "chooseUsImage": "img-1.jpg"
+  },
+  {
+    "url": "it-services",
+    "title": "IT Services",
+    "heroTxt": "Unlock the full potential of your business with future-ready IT solutions. BizFinx79 partners with DevStella.com to deliver scalable, secure, and innovative technology services tailored to your enterprise needs.",
+    "heroImg": "Cloud hosting-pana.png",
+    "hero-link": true,
+    "firstCardTitle": "Technology That Drives Transformation",
+    "firstCardTxt": "Stay competitive in a digital-first world. Our collaboration with DevStella.com ensures you access world-class IT infrastructure, software development, and managed services designed to optimize your digital ecosystem.",
+    "firstCardImage": "trust.png",
+    "secondCardTitle": "Your Trusted Partner for End-to-End IT Solutions",
+    "secondCardTxt": "From cloud implementation to custom software, DevStella.com helps businesses streamline operations, enhance security, and future-proof their tech stack through agile and reliable IT support.",
+    "coreSpecialities": {
+    "heading": "Our Comprehensive IT Services via DevStella.com",
+    "specialities": [
+      {
+        "id": "custom-software-development",
+        "title": "Custom Software Development",
+        "points": [
+          "Tailored web and mobile applications built for performance and scalability.",
+          "Utilizes modern frameworks like React, Angular, Node.js, and Laravel."
+        ]
+      },
+      {
+        "id": "social-media-marketing",
+        "title": "Social Media Marketing",
+        "points": [
+          "Engage your audience with strategic, data-driven social campaigns.",
+          "Combine organic and paid media for maximum brand reach and ROI."
+        ]
+      },
+      {
+        "id": "web-app-development",
+        "title": "Web Application Development",
+        "points": [
+          "Create responsive, scalable apps with AI and real-time features.",
+          "Built with React, Django, Python, and integrated cloud services."
+        ]
+      },
+      {
+        "id": "mobile-app-development",
+        "title": "Mobile Application Development",
+        "points": [
+          "Develop intuitive cross-platform apps for Android and iOS.",
+          "Enhance UX with AI, push notifications, and offline functionality."
+        ]
+      },
+      {
+        "id": "ai-ml-development",
+        "title": "AI & ML Product Development",
+        "points": [
+          "Deploy intelligent systems using machine learning and deep learning.",
+          "Build custom AI models for predictive analytics, NLP, and vision tasks."
+        ]
+      },
+      {
+        "id": "digital-marketing",
+        "title": "Digital Marketing",
+        "points": [
+          "Drive measurable growth with SEO, PPC, email, and content marketing.",
+          "Optimize campaigns using data-driven CRO and ROI analysis."
+        ]
+      },
+      {
+        "id": "human-resourcing",
+        "title": "Human Resourcing",
+        "points": [
+          "Streamline recruitment and onboarding with AI-powered HR tools.",
+          "Enhance employee retention and productivity with workforce insights."
+        ]
+      },
+      {
+        "id": "it-consulting",
+        "title": "IT Consulting",
+        "points": [
+          "Align your IT strategy with business goals using expert consultation.",
+          "Includes cloud migration, security audits, and digital transformation."
+        ]
+      }
+    ]
+  },
+    "chooseHeading": "Why Choose BizFinx79 & DevStella.com for IT Services?",
+    "choosePoints": [
+      {
+        "title": "Innovative Technology Stack",
+        "txt": "Leverage the latest tools and frameworks to stay ahead of the curve."
+      },
+      {
+        "title": "Scalable Solutions",
+        "txt": "Our services grow with your business, from startups to enterprises."
+      },
+      {
+        "title": "Security-First Approach",
+        "txt": "Prioritize data privacy and risk mitigation at every level of IT deployment."
+      },
+      {
+        "title": "Expert Delivery Team",
+        "txt": "Access skilled developers, engineers, and consultants through DevStella.com."
+      }
+    ],
+    "chooseUsImage": "img-1.jpg"
   }
+  
   
   
 ];
