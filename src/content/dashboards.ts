@@ -10,8 +10,6 @@ export const dashboardData = [
         "dashboard-1-4.png",
         "dashboard-1-5.png",
         "dashboard-1-6.png",
-        "dashboard-1-7.png",
-        "dashboard-1-8.png",
       ],
     },
     {
