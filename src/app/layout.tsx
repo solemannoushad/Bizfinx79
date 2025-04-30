@@ -7,7 +7,7 @@ import BackToTop from "@/components/BackToTop";
 import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
-  title: "Bizfinx79 | Rise Is Us",
+  title: "Bizfinx79 | Rise With Us",
   description: "Your Trusted Partner in Accounting, Tax, and CFO Services",
 };
 
