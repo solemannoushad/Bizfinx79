@@ -7,8 +7,8 @@ export const teamData = [
     },
     {
         img: 'cofounder.png',
-        name: 'Anum Khalid',
-        title: 'Co-Founder',
+        name: 'Anum Afzal',
+        title: 'CFO',
         description: "Having 13 years experience in accounting, bookkeeping, management accounting, financial consulting, business advisory. Dedicated GL & Financial Reporting Accountant with a strong foundation in International Accounting Standards (IAS) and International Financial Reporting Standards (IFRS). Possessing professional qualifications and extensive experience. Proficient in SAP ERP with a focus on the FI module, complemented by a solid understanding of Controlling (CO) functions. Skilled in utilizing MS Office applications and proficient in generating insightful dashboard reports to support informed decision-making. Proven ability to ensure compliance with IAS/IFRS guidelines while optimizing financial processes."
     }
 ]
