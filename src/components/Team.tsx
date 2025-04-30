@@ -12,13 +12,13 @@ function Team() {
                 const {img, name, title, description} = data;
                 return(
                     <div className={`team-card flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-16 items-center justify-center`} key={name}>
-                        <div className='team-img w-full md:w-1/2 h-[550px] rounded-lg shadow-lg shadow-black overflow-hidden'>
-                            <img className="w-full h-full object-cover" src={`/images/${img}`} alt={name} />
+                        <div className='team-img h-[550px] w-full md:w-[30%] md:h-[400px] rounded-lg shadow-lg shadow-black overflow-hidden'>
+                            <img className={`w-full h-full object-cover ${index % 2 === 0 ? '' : 'scale-150'}`} src={`/images/${img}`} alt={name} />
                         </div>
                         <div className="w-full md:w-1/2 flex flex-col gap-3">
-                            <h3 className='text-4xl font-medium'>{name}</h3>
-                            <h4 className='text-3xl font-normal'>{title}</h4>
-                            <p className="text-justify">{description}</p>
+                            <h3 className='text-3xl font-medium'>{name}</h3>
+                            <h4 className='text-2xl font-normal'>{title}</h4>
+                            <p className="text-justify text-sm">{description}</p>
                         </div>
                     </div>
                 )
