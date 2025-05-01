@@ -68,6 +68,7 @@ export default function Footer() {
             <div className="footer-logo text-2xl text-white tracking-widest mb-6">
               <img src="/logo.png" className="w-32" alt="BizFinX79" />
             </div>
+            <p className="uppercase text-secondary font-medium text-xl mb-6">rise with us</p>
             <p className="footer-about-desc text-base mb-6">
               Step into the future of finance with BizFinx79, where innovation meets integrity.
               We're not just a financial services firm; we're architects of financial success,
