@@ -2,7 +2,7 @@ export const targetAudienceContent = {
     headline: "BizFinx79 caters to a diverse range of clients, including :",
     cards: [
         {
-            title: "All Types of Businesses & Startups:",
+            title: "All Types of Businesses:",
             description: "Businesses seeking tailored accounting, planning, and advisory solutions to boost growth and streamline operations.",
             icon: "chart-line-solid.svg",
             bg: "#f5f5f5",
