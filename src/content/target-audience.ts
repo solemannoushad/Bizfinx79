@@ -3,7 +3,7 @@ export const targetAudienceContent = {
     cards: [
         {
             title: "All Types of Businesses & Startups:",
-            description: "Companies seeking streamlined accounting, financial planning, and strategic advisory services to fuel growth and operational efficiency.",
+            description: "Businesses seeking tailored accounting, planning, and advisory solutions to boost growth and streamline operations.",
             icon: "chart-line-solid.svg",
             bg: "#f5f5f5",
             color: "#000000"
