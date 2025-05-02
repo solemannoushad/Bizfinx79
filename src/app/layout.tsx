@@ -26,11 +26,11 @@ export default function RootLayout({
       </head>
       <body className="overflow-x-hidden">
         <BackToTop />
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <Navbar />
         </div>
 
-        <div className="lg:hidden">
+        <div className="md:hidden">
           <MobileNav />
         </div>
         <div className="">{children}</div>
