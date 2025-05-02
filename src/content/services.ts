@@ -100,6 +100,20 @@ export const serviceContent = {
         "Preparing Cost Reports",
       ],
     },
+    {
+      "url": "it-services",
+      "title": "IT Services",
+      "points": [
+        "Custom Software Development",
+        "Social Media Marketing",
+        "Web Application Development",
+        "Mobile Application Development",
+        "AI & ML Product Development",
+        "Digital Marketing",
+        "Human Resourcing",
+        "IT Consulting"
+      ]
+    }
     
   ],
 };
