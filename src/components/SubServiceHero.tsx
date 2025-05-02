@@ -18,15 +18,6 @@ function SubServiceHero({ txt, image, title }: SubServiceHeroProps) {
               {title}
             </h1>
             <p className="text-white text-xl font-normal my-4">{txt}</p>
-            <div className="inline">
-            <Button
-              title="Explore Devstella"
-              icon={true}
-              onClick={() => {
-                window.open("https://devstella.com/", "_blank");
-              }}
-            />
-            </div>
           </div>
         </div>
       </section>

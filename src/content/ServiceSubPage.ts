@@ -755,7 +755,6 @@ export const subServicesdata = [
     "title": "IT Services",
     "heroTxt": "Unlock the full potential of your business with future-ready IT solutions. BizFinx79 partners with DevStella.com to deliver scalable, secure, and innovative technology services tailored to your enterprise needs.",
     "heroImg": "Cloud hosting-pana.png",
-    "hero-link": true,
     "firstCardTitle": "Technology That Drives Transformation",
     "firstCardTxt": "Stay competitive in a digital-first world. Our collaboration with DevStella.com ensures you access world-class IT infrastructure, software development, and managed services designed to optimize your digital ecosystem.",
     "firstCardImage": "trust.png",
