@@ -1,4 +1,5 @@
 "use client"
+import { usePathname, useSearchParams } from "next/navigation"
 import { useState, useEffect, useRef } from "react"
 
 interface CoreSpecialitiesCardProps {
@@ -9,8 +10,25 @@ interface CoreSpecialitiesCardProps {
 
 function SubServiceCard({ title, points, id }: CoreSpecialitiesCardProps) {
   const [show, setShow] = useState(false)
-  const [hash, setHash] = useState<string>(typeof window !== "undefined" ? window.location.hash.substring(1) : "")
   const cardRef = useRef<HTMLDivElement>(null)
+
+      const pathname = usePathname();
+      const searchParams = useSearchParams();
+      const [hash, setHash] = useState("");
+      
+      // Update hash when URL changes
+      useEffect(() => {
+          const updateHash = () => {
+              // Get hash directly from window since Next.js router doesn't track hash changes
+              const newHash = window.location.hash.substring(1);
+              console.log("Hash updated to:", newHash);
+              setHash(newHash);
+          };
+          
+          updateHash();
+          window.addEventListener("hashchange", updateHash);
+          return () => window.removeEventListener("hashchange", updateHash);
+      }, [pathname, searchParams]); // Re-run when route changes
 
   const scrollToElementWithOffset = () => {
     if (cardRef.current) {
@@ -21,21 +39,11 @@ function SubServiceCard({ title, points, id }: CoreSpecialitiesCardProps) {
   }
 
   useEffect(() => {
-    const updateHash = () => {
-      setHash(window.location.hash.substring(1))
-    }
-
-    updateHash()
-    window.addEventListener("hashchange", updateHash)
-    return () => window.removeEventListener("hashchange", updateHash)
-  }, [])
-
-  useEffect(() => {
     if (hash === id) {
       setShow(true)
       setTimeout(scrollToElementWithOffset, 100)
     }
-  }, [hash, id]) // ✅ depend on hash
+  }, [hash, id])
 
   const handleToggle = () => {
     setShow((prev) => !prev)

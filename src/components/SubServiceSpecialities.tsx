@@ -8,7 +8,7 @@ interface SubServiceSpecialitiesProps{
     coreSpecialities: {
         heading:string;
         specialities: any[];
-    }
+    };
 }
 
 function SubServiceSpecialities({coreSpecialities}: SubServiceSpecialitiesProps) {

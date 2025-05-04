@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 }
 
 const Page = async ({ params }) => {
-  const serviceData = subServicesdata.find(item => item.url === params.service);
+  const serviceData = await subServicesdata.find(item => item.url === params.service);
 
   if (!serviceData) return notFound();
 
