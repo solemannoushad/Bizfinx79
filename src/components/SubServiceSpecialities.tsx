@@ -1,6 +1,4 @@
-import { coreSpecialities } from '@/content/core-specialities'
 import React from 'react'
-import CoreSpaeialitiesCard from './CoreSpaeialitiesCard'
 import Heading from './Heading'
 import SubServiceCard from './SubServiceCard'
 
