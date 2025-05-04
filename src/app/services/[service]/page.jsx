@@ -2,6 +2,7 @@
 import { notFound } from 'next/navigation';
 import { subServicesdata } from '@/content/ServiceSubPage';
 import ServiceClient from './serviceClient';
+import { Suspense } from 'react';
 
 
 export async function generateStaticParams() {
@@ -11,13 +12,15 @@ export async function generateStaticParams() {
 }
 
 const Page = async ({ params }) => {
-  const serviceData = await subServicesdata.find(item => item.url === params.service);
+  const serviceData = subServicesdata.find(item => item.url === params.service);
 
   if (!serviceData) return notFound();
 
 
   return (
-    <ServiceClient serviceData={serviceData} />
+    <Suspense fallback={<div>Loading...</div>}>
+      <ServiceClient serviceData={serviceData} />
+    </Suspense>
   );
 };
 
