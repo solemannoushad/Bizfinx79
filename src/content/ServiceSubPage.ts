@@ -154,7 +154,7 @@ export const subServicesdata = [
           ],
         },
         {
-          id: "sales-tax-vat-services",
+          id: "sales-tax-value-added-tax-vat-services",
           title: "Sales Tax / Value Added Tax (VAT) Services",
           points: [
             "Manage VAT compliance with precise tax calculations and timely filings.",
@@ -377,7 +377,7 @@ export const subServicesdata = [
           ]
         },
         {
-          id: "mergers-acquisitions",
+          id: "mergers-acquisitions-ma",
           title: "Mergers & Acquisitions (M&A)",
           points: [
             "Navigate complex M&A processes with expert valuation and due diligence.",
@@ -525,7 +525,7 @@ export const subServicesdata = [
     ]
   },
   {
-    "id": "ecommerce-accounting",
+    "id": "e-commerce-accounting",
     "title": "E-commerce Accounting",
     "points": [
       "Track online sales and multi-channel revenue streams effectively.",
@@ -679,7 +679,7 @@ export const subServicesdata = [
     ]
   },
   {
-    "id": "budgeting-and-forecasting",
+    "id": "budgeting-forecasting",
     "title": "Budgeting & Forecasting",
     "points": [
       "Develop financial forecasts and budgets to plan future expenditures effectively.",
@@ -695,7 +695,7 @@ export const subServicesdata = [
     ]
   },
   {
-    "id": "handling-bill-of-material-and-reporting",
+    "id": "handling-bill-of-material-reporting",
     "title": "Handling Bill of Material & Reporting",
     "points": [
       "Maintain accurate cost tracking by managing the bill of materials effectively.",
