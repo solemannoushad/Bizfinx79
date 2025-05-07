@@ -18,7 +18,7 @@ const Page = async ({ params }) => {
 
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div></div>}>
       <ServiceClient serviceData={serviceData} />
     </Suspense>
   );
