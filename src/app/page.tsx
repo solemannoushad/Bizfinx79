@@ -21,7 +21,7 @@ export default function Home() {
       {/* <SupportSection /> */}
       <CoreSpecialitiesSection />
       <div className="section">
-        <Heading title="Partner Logos" />
+        <Heading title="Our Trusted Partners" />
         <Marquee />
       </div>
       <Team />
