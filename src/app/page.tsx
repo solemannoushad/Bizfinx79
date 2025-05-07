@@ -1,6 +1,8 @@
 import BlogsSection from "@/components/BlogsSection";
 import CoreSpecialitiesSection from "@/components/CoreSpecialitiesSection";
+import Heading from "@/components/Heading";
 import HomeHero from "@/components/HomeHero";
+import Marquee from "@/components/Marquee";
 import SpecialitiesSection from "@/components/SpecialitiesSection";
 import SupportSection from "@/components/SupportSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
@@ -18,6 +20,10 @@ export default function Home() {
       <VideoBgSection />
       {/* <SupportSection /> */}
       <CoreSpecialitiesSection />
+      <div className="section">
+        <Heading title="Partner Logos" />
+        <Marquee />
+      </div>
       <Team />
       <BlogsSection />
     </>

@@ -48,6 +48,11 @@
     display: inline-flex;
     animation: scroll-marquee 100s linear infinite;
   }
+
+  .marquee-track-logos {
+    display: inline-flex;
+    animation: scroll-marquee 30s linear infinite;
+  }
   
   @keyframes scroll-marquee {
     0% {
@@ -61,6 +66,9 @@
   
   
   .marquee-wrapper:hover .marquee-track {
+    animation-play-state: paused;
+  }
+  .marquee-wrapper:hover .marquee-track-logos {
     animation-play-state: paused;
   }
 
