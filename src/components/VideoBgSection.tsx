@@ -16,6 +16,7 @@ function VideoBgSection() {
     <section className='w-screen h-[37rem] relative flex items-center justify-end text-white'>
       <video
         className="w-full h-full object-cover absolute top-0 left-0 z-10"
+        playsInline
         autoPlay
         muted
         loop

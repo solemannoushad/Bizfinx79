@@ -3,8 +3,6 @@ import CoreSpecialitiesSection from "@/components/CoreSpecialitiesSection";
 import Heading from "@/components/Heading";
 import HomeHero from "@/components/HomeHero";
 import Marquee from "@/components/Marquee";
-import SpecialitiesSection from "@/components/SpecialitiesSection";
-import SupportSection from "@/components/SupportSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
 import Team from "@/components/Team";
 import TrustBadge from "@/components/TrustBadge";

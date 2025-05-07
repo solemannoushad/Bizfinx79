@@ -34,6 +34,7 @@ function Hero({ heading, subheading }: HeroProps) {
       <div className="absolute top-0 left-0 w-screen h-screen z-10">
         <motion.video
           className="w-screen h-full object-cover"
+          playsInline
           autoPlay
           muted
           loop
