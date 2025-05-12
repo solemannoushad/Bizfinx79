@@ -23,6 +23,18 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"
         />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-698C7X01E2"></script>
+        <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-698C7X01E2');
+        `,
+      }}
+    />
       </head>
       <body className="overflow-x-hidden">
         <BackToTop />
