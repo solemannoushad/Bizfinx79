@@ -88,7 +88,7 @@ function Navbar() {
     <header
       className={`w-screen z-40 ${
         isScrolled ? "bg-foreground" : "bg-transparent"
-      } fixed`}
+      } fixed duration-300`}
     >
       <nav
         className={`${

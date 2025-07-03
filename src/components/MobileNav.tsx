@@ -68,7 +68,7 @@ export default function MobileNav() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50">
-      <div className={`px-8 py-6 flex justify-between items-center ${isScrolled ? "bg-foreground" : "bg-transparent"}`}>
+      <div className={`px-8 py-6 flex justify-between items-center ${isScrolled ? "bg-foreground" : "bg-transparent"} duration-300`}>
         <div className="logo text-xl text-white tracking-widest">
           {/* <img src="/icons/devstella-logo1.svg" className="w-20" alt="" /> */}
           <Link href="/">
