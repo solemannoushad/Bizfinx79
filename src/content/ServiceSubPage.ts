@@ -127,7 +127,7 @@ export const subServicesdata = [
             txt: "Providing clear, actionable data to guide strategic decisions."
         },
     ],
-    chooseUsImage: "img-1.jpg"
+    chooseUsImage: "img-1-removebg-preview.png"
   },
   {
     url: "taxation-services",
@@ -230,7 +230,7 @@ export const subServicesdata = [
         txt: "From initial planning to filing and audit defense, our team is with you at every step.",
       },
     ],
-    chooseUsImage: "img-1.jpg",
+    chooseUsImage: "img-1-removebg-preview.png",
   },
   {
     url: "financial-consulting",
@@ -326,7 +326,7 @@ export const subServicesdata = [
         txt: "From financial strategy to regulatory compliance, we cover it all."
       }
     ],
-    chooseUsImage: "img-1.jpg"
+    chooseUsImage: "img-1-removebg-preview.png"
   },
   {
     url: "business-advisory-services",
@@ -422,7 +422,7 @@ export const subServicesdata = [
         txt: "Build a resilient, scalable operation that adapts to changing market conditions."
       }
     ],
-    chooseUsImage: "img-1.jpg"
+    chooseUsImage: "img-1-removebg-preview.png"
   },
   {
     "url": "compliance-and-regulatory-services",
@@ -491,7 +491,7 @@ export const subServicesdata = [
         "txt": "From financial strategy to regulatory compliance, we cover it all."
       }
     ],
-    "chooseUsImage": "img-1.jpg"
+    "chooseUsImage": "img-1-removebg-preview.png"
   },  
   {
     "url": "specialized-services",
@@ -573,7 +573,7 @@ export const subServicesdata = [
         "txt": "Benefit from clear, detailed reports and actionable insights."
       }
     ],
-    "chooseUsImage": "img-1.jpg"
+    "chooseUsImage": "img-1-removebg-preview.png"
   },
   
   {
@@ -647,7 +647,7 @@ export const subServicesdata = [
         "txt": "Safeguard your financial future through proactive planning and protection."
       }
     ],
-    "chooseUsImage": "img-1.jpg"
+    "chooseUsImage": "img-1-removebg-preview.png"
   },
   {
     "url": "cost-management",
@@ -748,7 +748,7 @@ export const subServicesdata = [
         "txt": "Ongoing monitoring and refinement of cost strategies to maximize ROI."
       }
     ],
-    "chooseUsImage": "img-1.jpg"
+    "chooseUsImage": "img-1-removebg-preview.png"
   },
   {
     "url": "it-services",
@@ -848,7 +848,7 @@ export const subServicesdata = [
         "txt": "Access skilled developers, engineers, and consultants for your projects."
       }
     ],
-    "chooseUsImage": "img-1.jpg"
+    "chooseUsImage": "img-1-removebg-preview.png"
   }
   
   

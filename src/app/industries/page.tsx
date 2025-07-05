@@ -15,7 +15,7 @@ function page() {
                 </p>
             </div>
         </section>
-        <section className="section bg-[#eeeeee]">
+        <section className="section">
             <h3 className='font-bold text-4xl text-center mt-8'>Explore Auxis Solutions for Your Industry</h3>
             <div className='flex flex-col my-10'>
                 {
