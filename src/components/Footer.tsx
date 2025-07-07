@@ -66,7 +66,7 @@ export default function Footer() {
             }}
           >
             <div className="footer-logo text-2xl text-white tracking-widest mb-6">
-              <img src="/logo.png" className="w-32" alt="BizFinX79" />
+              <img src="/logo1.svg" className="w-32" alt="BizFinX79" />
             </div>
             <p className="uppercase text-secondary font-medium text-xl mb-6">rise with us</p>
             <p className="footer-about-desc text-base mb-6">

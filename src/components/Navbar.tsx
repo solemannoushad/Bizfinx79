@@ -99,7 +99,7 @@ function Navbar() {
       >
         <div className="flex items-center justify-between px-8 py-6 w-full z-40 max-w-7xl mx-auto">
           <Link href="/">
-            <img src="/logo.png" className="w-32" alt="BizFinX79" />
+            <img src="/logo1.svg" className="w-32" alt="BizFinX79" />
           </Link>
           <ul className="nav-menu flex relative">
             {menu.map(({ title, path }) => (

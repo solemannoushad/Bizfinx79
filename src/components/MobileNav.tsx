@@ -72,7 +72,7 @@ export default function MobileNav() {
         <div className="logo text-xl text-white tracking-widest">
           {/* <img src="/icons/devstella-logo1.svg" className="w-20" alt="" /> */}
           <Link href="/">
-          <img src='/logo.png' className="w-32"
+          <img src='/logo1.svg' className="w-32"
                 alt="BizFinX79" />
           </Link>
         </div>
